@@ -1,0 +1,66 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="Git">
+      <project id="BirthDayCard" values="config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED" collectionTime="1472630549144" />
+      <project id="My Application1.2" values="config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.force.push.enabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled" collectionTime="1472459558035" />
+      <project id="MyApplication" values="config.ssh.enabled,config.force.push.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1472641234514" />
+      <project id="My Application" values="config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT" collectionTime="1472463103089" />
+      <project id="JustJava" values="config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.force.push.enabled,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.push.autoupdate.disabled,config.ssh.enabled,config.push.update.all.roots.enabled" collectionTime="1473160830396" />
+      <project id="Just Java" values="config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.warn.about.crlf.enabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled" collectionTime="1472820115589" />
+      <project id="BirthdayEg1" values="config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.warn.about.crlf.enabled,config.save.policy.STASH,config.ssh.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1472458617920" />
+    </group>
+    <group name="language-level">
+      <project id="BirthDayCard" values="JDK_1_8,JDK_1_7" collectionTime="1472630549143" />
+      <project id="My Application1.2" values="JDK_1_7" collectionTime="1472459558024" />
+      <project id="MyApplication" values="JDK_1_7,JDK_1_8" collectionTime="1472641234513" />
+      <project id="My Application" values="JDK_1_8,JDK_1_7" collectionTime="1472463103088" />
+      <project id="JustJava" values="JDK_1_7" collectionTime="1473160830386" />
+      <project id="Just Java" values="JDK_1_7" collectionTime="1472820115588" />
+      <project id="BirthdayEg1" values="JDK_1_7" collectionTime="1472458617920" />
+    </group>
+    <group name="frameworks">
+      <project id="BirthDayCard" values="android,java-gradle,android-gradle" collectionTime="1472630548949" />
+      <project id="My Application1.2" values="android-gradle,java-gradle,android" collectionTime="1472459557961" />
+      <project id="MyApplication" values="android,java-gradle,android-gradle" collectionTime="1472641234467" />
+      <project id="My Application" values="android,android-gradle,java-gradle" collectionTime="1472463103033" />
+      <project id="JustJava" values="android,android-gradle,java-gradle" collectionTime="1473160830217" />
+      <project id="Just Java" values="android,java-gradle,android-gradle" collectionTime="1472820115426" />
+      <project id="BirthdayEg1" values="android,android-gradle,java-gradle" collectionTime="1472458617874" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="BirthDayCard" values="AndroidRunConfigurationType" collectionTime="1472630548950" />
+      <project id="My Application1.2" values="AndroidRunConfigurationType" collectionTime="1472459557962" />
+      <project id="MyApplication" values="AndroidRunConfigurationType" collectionTime="1472641234472" />
+      <project id="My Application" values="AndroidRunConfigurationType" collectionTime="1472463103033" />
+      <project id="JustJava" values="AndroidRunConfigurationType" collectionTime="1473160830218" />
+      <project id="Just Java" values="AndroidRunConfigurationType" collectionTime="1472820115427" />
+      <project id="BirthdayEg1" values="AndroidRunConfigurationType" collectionTime="1472458617874" />
+    </group>
+    <group name="file-type">
+      <project id="BirthDayCard" values="Images,AIDL,Groovy,Properties,ARCHIVE,JAVA,UNKNOWN,PLAIN_TEXT,IDEA_MODULE,ProGuard File,XML" collectionTime="1472630549088" />
+      <project id="My Application1.2" values="AIDL,ProGuard File,JAVA,Images,XML,PLAIN_TEXT,Properties,Groovy,ARCHIVE,UNKNOWN,IDEA_MODULE" collectionTime="1472459558009" />
+      <project id="MyApplication" values="Groovy,PLAIN_TEXT,UNKNOWN,JAVA,IDEA_MODULE,XML,Images,ProGuard File,Properties,ARCHIVE,AIDL" collectionTime="1472641234502" />
+      <project id="My Application" values="Groovy,PLAIN_TEXT,JAVA,XML,ARCHIVE,UNKNOWN,Properties,ProGuard File,IDEA_MODULE,AIDL,Images" collectionTime="1472463103078" />
+      <project id="JustJava" values="UNKNOWN,Properties,XML,Groovy,PLAIN_TEXT,JAVA,ProGuard File,ARCHIVE,AIDL,IDEA_MODULE,Images" collectionTime="1473160830309" />
+      <project id="Just Java" values="PLAIN_TEXT,IDEA_MODULE,Images,Properties,XML,ProGuard File,JAVA,AIDL,UNKNOWN,Groovy,ARCHIVE" collectionTime="1472820115535" />
+      <project id="BirthdayEg1" values="XML,AIDL,IDEA_MODULE,PLAIN_TEXT,Groovy,UNKNOWN,ARCHIVE,Images,ProGuard File,JAVA,Properties" collectionTime="1472458617920" />
+    </group>
+    <group name="module type">
+      <project id="BirthDayCard" values="JAVA_MODULE" collectionTime="1472630548950" />
+      <project id="My Application1.2" values="JAVA_MODULE" collectionTime="1472459557961" />
+      <project id="MyApplication" values="JAVA_MODULE" collectionTime="1472641234467" />
+      <project id="My Application" values="JAVA_MODULE" collectionTime="1472463103033" />
+      <project id="JustJava" values="JAVA_MODULE" collectionTime="1473160830217" />
+      <project id="Just Java" values="JAVA_MODULE" collectionTime="1472820115426" />
+      <project id="BirthdayEg1" values="JAVA_MODULE" collectionTime="1472458617874" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="88" />
+      <entry feature="ide.settings.Auto_Import" count="1" />
+      <entry feature="ideaapp.started" count="20" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="2" />
+    </counts>
+  </component>
+</application>

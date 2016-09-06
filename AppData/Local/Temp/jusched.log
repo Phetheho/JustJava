@@ -1,0 +1,1515 @@
+[2016/08/25 11:01:19.976, jdk-8u101-windows-x64.exe (PID: 5900, TID: 6560), FileUtils.cpp:348 (FileUtils::`anonymous-namespace'::createNewFile)]
+	TRACE: Created [C:\Users\CODETR~1\AppData\Local\Temp\jds78798625.tmp] file
+[2016/08/25 11:01:19.979, jdk-8u101-windows-x64.exe (PID: 5900, TID: 6560), FileUtils.cpp:529 (FileUtils::deleteFile)]
+	TRACE: Deleted [C:\Users\CODETR~1\AppData\Local\Temp\jds78798625.tmp] file
+[2016/08/25 11:01:19.995, jdk-8u101-windows-x64.exe (PID: 5900, TID: 6560), FileUtils.cpp:348 (FileUtils::`anonymous-namespace'::createNewFile)]
+	TRACE: Created [C:\Users\CODETR~1\AppData\Local\Temp\jds78798625.tmp\jds78798640.tmp] file
+[2016/08/25 11:01:21.034, jdk-8u101-windows-x64.exe (PID: 5900, TID: 6560), FileUtils.cpp:469 (FileUtils::`anonymous-namespace'::moveFileImpl)]
+	TRACE: Moved [C:\Users\CODETR~1\AppData\Local\Temp\jds78798625.tmp\jds78798640.tmp] file to [C:\Users\CODETR~1\AppData\Local\Temp\jds78798625.tmp\jdk-8u101-windows-x64.exe]
+[2016/08/25 11:01:22.746, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), Locales.cpp:318 (Locale::preferredLanguages)]
+	INFO: PreferredUILanguages: Vista+
+[2016/08/25 11:01:22.749, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), InstallConfigData.cpp:160 (InstallConfigData::InstallConfigData)]
+	TRACE: Entering InstallConfigData::InstallConfigData
+[2016/08/25 11:01:22.752, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), InstallConfigData.cpp:217 (InstallConfigData::InitConfig)]
+	INFO: Default config settings are: 
+INSTALL_SILENT=Disable
+STATIC=Disable
+AUTO_UPDATE=Enable
+WEB_ANALYTICS=Enable
+EULA=Disable
+SPONSORS=Enable
+OEMUPDATE=Disable
+
+[2016/08/25 11:01:22.754, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), InstallConfigData.cpp:0 (InstallConfigData::InstallConfigData)]
+	TRACE: Exiting InstallConfigData::InstallConfigData (entered at InstallConfigData.cpp:160)
+[2016/08/25 11:01:22.756, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: -->Loading Important args...
+[2016/08/25 11:01:22.758, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), InstallConfigData.cpp:493 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Entering InstallConfigData::ImportArgsConfigSettings
+[2016/08/25 11:01:22.760, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing command line arguments
+[2016/08/25 11:01:22.770, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), InstallConfigData.cpp:0 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Exiting InstallConfigData::ImportArgsConfigSettings (entered at InstallConfigData.cpp:493)
+[2016/08/25 11:01:22.772, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: |------Important args config (TMP)--------|
+
+INSTALL_SILENT = Disable
+STATIC = Disable
+AUTO_UPDATE = Enable
+SPONSORS = Enable
+WEB_ANALYTICS = Enable
+EULA = Disable
+OEMUPDATE = Disable
+|-------------------------------------|
+
+[2016/08/25 11:01:22.774, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: -->Loading Config...
+[2016/08/25 11:01:22.776, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing runtime configuration file...
+[2016/08/25 11:01:22.776, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:129 (logit)]
+	INFO: Runtime config file path is C:\ProgramData\Oracle\Java\java.settings.cfg
+[2016/08/25 11:01:22.776, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: Runtime configuration file doesn't exist. It will be created later by settings_api.
+[2016/08/25 11:01:22.776, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), InstallConfigData.cpp:493 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Entering InstallConfigData::ImportArgsConfigSettings
+[2016/08/25 11:01:22.776, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing command line arguments
+[2016/08/25 11:01:22.776, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), InstallConfigData.cpp:0 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Exiting InstallConfigData::ImportArgsConfigSettings (entered at InstallConfigData.cpp:493)
+[2016/08/25 11:01:22.776, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), InstallConfigData.cpp:603 (InstallConfigData::CheckParams)]
+	TRACE: Entering InstallConfigData::CheckParams
+[2016/08/25 11:01:22.776, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), InstallConfigData.cpp:0 (InstallConfigData::CheckParams)]
+	TRACE: Exiting InstallConfigData::CheckParams (entered at InstallConfigData.cpp:603)
+[2016/08/25 11:01:22.793, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: -->Saving backup...
+[2016/08/25 11:01:22.796, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing runtime configuration file...
+[2016/08/25 11:01:22.798, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:129 (logit)]
+	INFO: Runtime config file path is C:\ProgramData\Oracle\Java\java.settings.cfg
+[2016/08/25 11:01:22.800, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: Runtime configuration file doesn't exist. It will be created later by settings_api.
+[2016/08/25 11:01:22.802, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: |------Config to backup--------|
+
+|-------------------------------------|
+
+[2016/08/25 11:01:22.805, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: -->Loading export config...
+[2016/08/25 11:01:22.807, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing runtime configuration file...
+[2016/08/25 11:01:22.809, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:129 (logit)]
+	INFO: Runtime config file path is C:\ProgramData\Oracle\Java\java.settings.cfg
+[2016/08/25 11:01:22.811, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: Runtime configuration file doesn't exist. It will be created later by settings_api.
+[2016/08/25 11:01:22.813, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), InstallConfigData.cpp:493 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Entering InstallConfigData::ImportArgsConfigSettings
+[2016/08/25 11:01:22.815, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing command line arguments
+[2016/08/25 11:01:22.818, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), InstallConfigData.cpp:0 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Exiting InstallConfigData::ImportArgsConfigSettings (entered at InstallConfigData.cpp:493)
+[2016/08/25 11:01:22.820, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), InstallConfigData.cpp:603 (InstallConfigData::CheckParams)]
+	TRACE: Entering InstallConfigData::CheckParams
+[2016/08/25 11:01:22.822, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), InstallConfigData.cpp:0 (InstallConfigData::CheckParams)]
+	TRACE: Exiting InstallConfigData::CheckParams (entered at InstallConfigData.cpp:603)
+[2016/08/25 11:01:22.824, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: -->Adding CMDLINE to config...
+[2016/08/25 11:01:22.827, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: -->Normalizing Export...
+[2016/08/25 11:01:22.830, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: |------Config to export--------|
+
+|-------------------------------------|
+
+[2016/08/25 11:01:22.832, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: |------!!!!Working config!!!!--------|
+
+INSTALL_SILENT = Disable
+STATIC = Disable
+AUTO_UPDATE = Enable
+SPONSORS = Enable
+WEB_ANALYTICS = Enable
+EULA = Disable
+OEMUPDATE = Disable
+|-------------------------------------|
+
+[2016/08/25 11:01:22.909, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), JavaEnvironment.cpp:472 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2016/08/25 11:01:22.926, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:472)
+[2016/08/25 11:01:22.948, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jdk1.8.0_101_x64] directory
+[2016/08/25 11:01:22.984, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: szJDKExeCommand = "C:\Windows\System32\\msiexec.exe" /i "C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jdk1.8.0_101_x64\jdk1.8.0_10164.msi"  WRAPPER=1
+
+[2016/08/25 11:01:22.990, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: ...Exporting config settings
+[2016/08/25 11:01:22.994, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AllUtils.cpp:125 (logit)]
+	INFO: Nothing new to export to runtime.
+[2016/08/25 11:01:22.999, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Windows\System32\\msiexec.exe" /i "C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jdk1.8.0_101_x64\jdk1.8.0_10164.msi"  WRAPPER=1
+[2016/08/25 11:02:40.498, MsiExec.exe (PID: 6252, TID: 1292), RegInstall.cpp:194 (MSIunziptools)]
+	TRACE: Entering MSIunziptools
+[2016/08/25 11:02:40.498, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\bin\] directory
+[2016/08/25 11:02:40.546, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\db\] directory
+[2016/08/25 11:02:40.547, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\db/bin\] directory
+[2016/08/25 11:02:40.583, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\db/lib\] directory
+[2016/08/25 11:02:40.629, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\include\] directory
+[2016/08/25 11:02:40.629, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\include/win32\] directory
+[2016/08/25 11:02:40.645, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\include/win32/bridge\] directory
+[2016/08/25 11:02:40.652, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre\] directory
+[2016/08/25 11:02:40.652, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/bin\] directory
+[2016/08/25 11:02:40.652, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/bin/dtplugin\] directory
+[2016/08/25 11:02:40.768, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/bin/plugin2\] directory
+[2016/08/25 11:02:40.783, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/bin/server\] directory
+[2016/08/25 11:02:40.852, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/lib\] directory
+[2016/08/25 11:02:40.868, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/lib/amd64\] directory
+[2016/08/25 11:02:40.868, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/lib/applet\] directory
+[2016/08/25 11:02:40.946, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/lib/cmm\] directory
+[2016/08/25 11:02:41.103, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/lib/deploy\] directory
+[2016/08/25 11:02:41.204, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/lib/ext\] directory
+[2016/08/25 11:02:41.273, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/lib/fonts\] directory
+[2016/08/25 11:02:41.289, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/lib/images\] directory
+[2016/08/25 11:02:41.289, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/lib/images/cursors\] directory
+[2016/08/25 11:02:41.289, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/lib/jfr\] directory
+[2016/08/25 11:02:41.304, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/lib/management\] directory
+[2016/08/25 11:02:41.304, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\jre/lib/security\] directory
+[2016/08/25 11:02:41.320, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib\] directory
+[2016/08/25 11:02:41.357, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol\] directory
+[2016/08/25 11:02:41.357, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/configuration\] directory
+[2016/08/25 11:02:41.357, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/configuration/org.eclipse.equinox.simpleconfigurator\] directory
+[2016/08/25 11:02:41.357, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/configuration/org.eclipse.update\] directory
+[2016/08/25 11:02:41.357, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/dropins\] directory
+[2016/08/25 11:02:41.357, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features\] directory
+[2016/08/25 11:02:41.357, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/com.jrockit.mc.feature.console_5.5.0.165303\] directory
+[2016/08/25 11:02:41.357, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/com.jrockit.mc.feature.core_5.5.0.165303\] directory
+[2016/08/25 11:02:41.357, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/com.jrockit.mc.feature.flightrecorder_5.5.0.165303\] directory
+[2016/08/25 11:02:41.357, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/com.jrockit.mc.feature.rcp.ja_5.5.0.165303\] directory
+[2016/08/25 11:02:41.372, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/com.jrockit.mc.feature.rcp.zh_CN_5.5.0.165303\] directory
+[2016/08/25 11:02:41.372, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/com.jrockit.mc.feature.rcp_5.5.0.165303\] directory
+[2016/08/25 11:02:41.372, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/com.jrockit.mc.rcp.product_5.5.0.165303\] directory
+[2016/08/25 11:02:41.372, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.babel.nls_eclipse_ja_4.4.0.v20140623020002\] directory
+[2016/08/25 11:02:41.372, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.babel.nls_eclipse_zh_4.4.0.v20140623020002\] directory
+[2016/08/25 11:02:41.388, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.e4.rcp_1.3.100.v20141007-2033\] directory
+[2016/08/25 11:02:41.388, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.e4.rcp_1.3.100.v20141007-2033/META-INF\] directory
+[2016/08/25 11:02:41.388, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.ecf.core.feature_1.1.0.v20140827-1444\] directory
+[2016/08/25 11:02:41.388, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.ecf.core.feature_1.1.0.v20140827-1444/META-INF\] directory
+[2016/08/25 11:02:41.388, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.ecf.core.ssl.feature_1.0.0.v20140827-1444\] directory
+[2016/08/25 11:02:41.388, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.ecf.core.ssl.feature_1.0.0.v20140827-1444/META-INF\] directory
+[2016/08/25 11:02:41.404, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.ecf.filetransfer.feature_3.9.0.v20140827-1444\] directory
+[2016/08/25 11:02:41.404, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.ecf.filetransfer.feature_3.9.0.v20140827-1444/META-INF\] directory
+[2016/08/25 11:02:41.419, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.ecf.filetransfer.httpclient4.feature_3.9.1.v20140827-1444\] directory
+[2016/08/25 11:02:41.419, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.ecf.filetransfer.httpclient4.feature_3.9.1.v20140827-1444/META-INF\] directory
+[2016/08/25 11:02:41.419, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.ecf.filetransfer.httpclient4.ssl.feature_1.0.0.v20140827-1444\] directory
+[2016/08/25 11:02:41.419, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.ecf.filetransfer.httpclient4.ssl.feature_1.0.0.v20140827-1444/META-INF\] directory
+[2016/08/25 11:02:41.435, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.ecf.filetransfer.ssl.feature_1.0.0.v20140827-1444\] directory
+[2016/08/25 11:02:41.435, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.ecf.filetransfer.ssl.feature_1.0.0.v20140827-1444/META-INF\] directory
+[2016/08/25 11:02:41.435, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.emf.common_2.10.1.v20140901-1043\] directory
+[2016/08/25 11:02:41.435, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.emf.common_2.10.1.v20140901-1043/META-INF\] directory
+[2016/08/25 11:02:41.435, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.emf.ecore_2.10.1.v20140901-1043\] directory
+[2016/08/25 11:02:41.451, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.emf.ecore_2.10.1.v20140901-1043/META-INF\] directory
+[2016/08/25 11:02:41.454, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.equinox.p2.core.feature_1.3.0.v20140523-0116\] directory
+[2016/08/25 11:02:41.457, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.equinox.p2.core.feature_1.3.0.v20140523-0116/META-INF\] directory
+[2016/08/25 11:02:41.457, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.equinox.p2.rcp.feature_1.2.0.v20140523-0116\] directory
+[2016/08/25 11:02:41.457, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.equinox.p2.rcp.feature_1.2.0.v20140523-0116/META-INF\] directory
+[2016/08/25 11:02:41.457, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.help_2.0.102.v20141007-2301\] directory
+[2016/08/25 11:02:41.457, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.help_2.0.102.v20141007-2301/META-INF\] directory
+[2016/08/25 11:02:41.457, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.rcp_4.4.0.v20141007-2301\] directory
+[2016/08/25 11:02:41.472, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/features/org.eclipse.rcp_4.4.0.v20141007-2301/META-INF\] directory
+[2016/08/25 11:02:41.472, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/p2\] directory
+[2016/08/25 11:02:41.472, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/p2/org.eclipse.equinox.p2.core\] directory
+[2016/08/25 11:02:41.472, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/p2/org.eclipse.equinox.p2.core/cache\] directory
+[2016/08/25 11:02:41.472, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/p2/org.eclipse.equinox.p2.core/cache/binary\] directory
+[2016/08/25 11:02:41.472, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/p2/org.eclipse.equinox.p2.engine\] directory
+[2016/08/25 11:02:41.472, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/p2/org.eclipse.equinox.p2.engine/.settings\] directory
+[2016/08/25 11:02:41.488, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/p2/org.eclipse.equinox.p2.engine/profileRegistry\] directory
+[2016/08/25 11:02:41.488, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/p2/org.eclipse.equinox.p2.engine/profileRegistry/JMC.profile\] directory
+[2016/08/25 11:02:41.488, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/p2/org.eclipse.equinox.p2.engine/profileRegistry/JMC.profile/.data\] directory
+[2016/08/25 11:02:41.488, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins\] directory
+[2016/08/25 11:02:41.535, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/com.jrockit.mc.console.ui.notification_5.5.0.165303\] directory
+[2016/08/25 11:02:41.550, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/com.jrockit.mc.console.ui.notification_5.5.0.165303/html\] directory
+[2016/08/25 11:02:41.551, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/com.jrockit.mc.console.ui.notification_5.5.0.165303/html/dcommon\] directory
+[2016/08/25 11:02:41.552, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/com.jrockit.mc.console.ui.notification_5.5.0.165303/html/dcommon/css\] directory
+[2016/08/25 11:02:41.553, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/com.jrockit.mc.console.ui.notification_5.5.0.165303/html/dcommon/gifs\] directory
+[2016/08/25 11:02:41.557, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/com.jrockit.mc.console.ui.notification_5.5.0.165303/html/dcommon/html\] directory
+[2016/08/25 11:02:41.573, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/com.jrockit.mc.console.ui.notification_5.5.0.165303/icons\] directory
+[2016/08/25 11:02:41.573, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/com.jrockit.mc.console.ui.notification_5.5.0.165303/META-INF\] directory
+[2016/08/25 11:02:41.604, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/com.jrockit.mc.rjmx_5.5.0.165303\] directory
+[2016/08/25 11:02:41.604, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/com.jrockit.mc.rjmx_5.5.0.165303/icons\] directory
+[2016/08/25 11:02:41.619, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/com.jrockit.mc.rjmx_5.5.0.165303/lib\] directory
+[2016/08/25 11:02:41.619, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/com.jrockit.mc.rjmx_5.5.0.165303/META-INF\] directory
+[2016/08/25 11:02:41.619, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/com.jrockit.mc.rjmx_5.5.0.165303/schema\] directory
+[2016/08/25 11:02:41.735, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.200.v20141007-2033\] directory
+[2016/08/25 11:02:41.735, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.200.v20141007-2033/META-INF\] directory
+[2016/08/25 11:02:41.857, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/org.eclipse.ui.themes_1.0.1.v20140819-1717\] directory
+[2016/08/25 11:02:41.857, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/org.eclipse.ui.themes_1.0.1.v20140819-1717/css\] directory
+[2016/08/25 11:02:41.857, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/org.eclipse.ui.themes_1.0.1.v20140819-1717/css/dark\] directory
+[2016/08/25 11:02:41.873, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/org.eclipse.ui.themes_1.0.1.v20140819-1717/images\] directory
+[2016/08/25 11:02:41.889, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/missioncontrol/plugins/org.eclipse.ui.themes_1.0.1.v20140819-1717/META-INF\] directory
+[2016/08/25 11:02:41.920, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm\] directory
+[2016/08/25 11:02:41.920, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/etc\] directory
+[2016/08/25 11:02:41.920, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/platform\] directory
+[2016/08/25 11:02:41.920, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/platform/config\] directory
+[2016/08/25 11:02:41.920, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/platform/config/ModuleAutoDeps\] directory
+[2016/08/25 11:02:41.920, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/platform/config/Modules\] directory
+[2016/08/25 11:02:41.957, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/platform/core\] directory
+[2016/08/25 11:02:41.957, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/platform/core/locale\] directory
+[2016/08/25 11:02:41.973, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/platform/lib\] directory
+[2016/08/25 11:02:41.973, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/platform/lib/locale\] directory
+[2016/08/25 11:02:41.989, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/platform/modules\] directory
+[2016/08/25 11:02:41.989, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/platform/modules/ext\] directory
+[2016/08/25 11:02:41.989, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/platform/modules/ext/locale\] directory
+[2016/08/25 11:02:41.989, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/platform/modules/locale\] directory
+[2016/08/25 11:02:42.120, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/platform/update_tracking\] directory
+[2016/08/25 11:02:42.256, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/profiler\] directory
+[2016/08/25 11:02:42.258, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/profiler/config\] directory
+[2016/08/25 11:02:42.258, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/profiler/config/Modules\] directory
+[2016/08/25 11:02:42.274, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/profiler/lib\] directory
+[2016/08/25 11:02:42.274, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/profiler/lib/deployed\] directory
+[2016/08/25 11:02:42.274, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/profiler/lib/deployed/jdk15\] directory
+[2016/08/25 11:02:42.289, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/profiler/lib/deployed/jdk15/windows-amd64\] directory
+[2016/08/25 11:02:42.289, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/profiler/lib/deployed/jdk16\] directory
+[2016/08/25 11:02:42.289, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/profiler/lib/deployed/jdk16/windows-amd64\] directory
+[2016/08/25 11:02:42.305, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/profiler/lib/locale\] directory
+[2016/08/25 11:02:42.305, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/profiler/modules\] directory
+[2016/08/25 11:02:42.305, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/profiler/modules/locale\] directory
+[2016/08/25 11:02:42.759, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/profiler/update_tracking\] directory
+[2016/08/25 11:02:42.790, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/visualvm\] directory
+[2016/08/25 11:02:42.790, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/visualvm/config\] directory
+[2016/08/25 11:02:42.790, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/visualvm/config/Modules\] directory
+[2016/08/25 11:02:42.974, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/visualvm/core\] directory
+[2016/08/25 11:02:42.974, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/visualvm/core/locale\] directory
+[2016/08/25 11:02:42.974, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/visualvm/modules\] directory
+[2016/08/25 11:02:43.221, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/visualvm/modules/locale\] directory
+[2016/08/25 11:02:43.275, MsiExec.exe (PID: 6252, TID: 1292), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jdk1.8.0_101\lib/visualvm/visualvm/update_tracking\] directory
+[2016/08/25 11:02:43.337, MsiExec.exe (PID: 6252, TID: 1292), RegInstall.cpp:0 (MSIunziptools)]
+	TRACE: Exiting MSIunziptools (entered at RegInstall.cpp:194)
+[2016/08/25 11:02:43.475, MsiExec.exe (PID: 6252, TID: 9096), RegInstall.cpp:124 (MSIInstallJDK)]
+	TRACE: Entering MSIInstallJDK
+[2016/08/25 11:02:43.475, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jdk1.8.0_101\bin\unpack200.exe" -r "C:\Program Files\Java\jdk1.8.0_101\lib/tools.pack" "C:\Program Files\Java\jdk1.8.0_101\lib/tools.jar"
+[2016/08/25 11:02:44.640, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:02:44.640, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:02:44.640, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jdk1.8.0_101\bin\unpack200.exe" -r "C:\Program Files\Java\jdk1.8.0_101\jre/lib/plugin.pack" "C:\Program Files\Java\jdk1.8.0_101\jre/lib/plugin.jar"
+[2016/08/25 11:02:44.840, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:02:44.840, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:02:44.840, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jdk1.8.0_101\bin\unpack200.exe" -r "C:\Program Files\Java\jdk1.8.0_101\jre/lib/javaws.pack" "C:\Program Files\Java\jdk1.8.0_101\jre/lib/javaws.jar"
+[2016/08/25 11:02:44.940, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:02:44.956, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:02:44.956, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jdk1.8.0_101\bin\unpack200.exe" -r "C:\Program Files\Java\jdk1.8.0_101\jre/lib/deploy.pack" "C:\Program Files\Java\jdk1.8.0_101\jre/lib/deploy.jar"
+[2016/08/25 11:02:45.062, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:02:45.062, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:02:45.062, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jdk1.8.0_101\bin\unpack200.exe" -r "C:\Program Files\Java\jdk1.8.0_101\jre/lib/rt.pack" "C:\Program Files\Java\jdk1.8.0_101\jre/lib/rt.jar"
+[2016/08/25 11:02:46.164, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:02:46.164, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:02:46.164, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jdk1.8.0_101\bin\unpack200.exe" -r "C:\Program Files\Java\jdk1.8.0_101\jre/lib/jsse.pack" "C:\Program Files\Java\jdk1.8.0_101\jre/lib/jsse.jar"
+[2016/08/25 11:02:46.195, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:02:46.195, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:02:46.195, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jdk1.8.0_101\bin\unpack200.exe" -r "C:\Program Files\Java\jdk1.8.0_101\jre/lib/charsets.pack" "C:\Program Files\Java\jdk1.8.0_101\jre/lib/charsets.jar"
+[2016/08/25 11:02:46.226, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:02:46.226, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:02:46.226, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jdk1.8.0_101\bin\unpack200.exe" -r "C:\Program Files\Java\jdk1.8.0_101\jre/lib/ext/localedata.pack" "C:\Program Files\Java\jdk1.8.0_101\jre/lib/ext/localedata.jar"
+[2016/08/25 11:02:46.296, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:02:46.296, MsiExec.exe (PID: 6252, TID: 9096), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:02:46.296, MsiExec.exe (PID: 6252, TID: 9096), InstallConfigData.cpp:160 (InstallConfigData::InstallConfigData)]
+	TRACE: Entering InstallConfigData::InstallConfigData
+[2016/08/25 11:02:46.296, MsiExec.exe (PID: 6252, TID: 9096), InstallConfigData.cpp:217 (InstallConfigData::InitConfig)]
+	INFO: Default config settings are: 
+INSTALL_SILENT=Disable
+STATIC=Disable
+AUTO_UPDATE=Enable
+WEB_ANALYTICS=Enable
+EULA=Disable
+SPONSORS=Enable
+OEMUPDATE=Disable
+
+[2016/08/25 11:02:46.296, MsiExec.exe (PID: 6252, TID: 9096), InstallConfigData.cpp:0 (InstallConfigData::InstallConfigData)]
+	TRACE: Exiting InstallConfigData::InstallConfigData (entered at InstallConfigData.cpp:160)
+[2016/08/25 11:02:46.296, MsiExec.exe (PID: 6252, TID: 9096), JavaEnvironment.cpp:472 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2016/08/25 11:02:46.296, MsiExec.exe (PID: 6252, TID: 9096), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=64; productCode={64A3A4F4-B792-11D6-A78A-00B0D0180101}; type=1
+[2016/08/25 11:02:46.296, MsiExec.exe (PID: 6252, TID: 9096), JavaEnvironment.cpp:139 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {64A3A4F4-B792-11D6-A78A-00B0D0180101} Java installation
+[2016/08/25 11:02:46.296, MsiExec.exe (PID: 6252, TID: 9096), JavaEnvironment.cpp:303 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {64A3A4F4-B792-11D6-A78A-00B0D0180101} Java installation
+[2016/08/25 11:02:46.296, MsiExec.exe (PID: 6252, TID: 9096), JavaEnvironment.cpp:214 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({64A3A4F4-B792-11D6-A78A-00B0D0180101})
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), JavaEnvironment.cpp:451 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(1.8.0_101-b13|1.8.0_101-b13|JDK|64bit|C:\Program Files\Java\jdk1.8.0_101|{64A3A4F4-B792-11D6-A78A-00B0D0180101}|-10)
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:472)
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), RegInstallShare.cpp:143 (InstallJava)]
+	TRACE: InstallJava(1.8.0_101-b13)
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\JavaSoft\Java Development Kit\1.8.0_101\JavaHome]=REG_SZ[C:\Program Files\Java\jdk1.8.0_101]
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), RegistryUtils.cpp:160 (`anonymous-namespace'::updateCurrentFamilyVersion)]
+	TRACE: Entering `anonymous-namespace'::updateCurrentFamilyVersion
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\JavaSoft\Java Development Kit\1.8\JavaHome]=REG_SZ[C:\Program Files\Java\jdk1.8.0_101]
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\JavaSoft\Java Development Kit\1.8\MicroVersion]=REG_SZ[0]
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), RegistryUtils.cpp:0 (`anonymous-namespace'::updateCurrentFamilyVersion)]
+	TRACE: Exiting `anonymous-namespace'::updateCurrentFamilyVersion (entered at RegistryUtils.cpp:160)
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\JavaSoft\Java Development Kit\CurrentVersion]=REG_SZ[1.8]
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\Applications\java.exe\IsHostApp]=REG_SZ[]
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\Applications\javaw.exe\IsHostApp]=REG_SZ[]
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), RegistryUtils.cpp:75 (`anonymous-namespace'::updateJarFileAssociation)]
+	TRACE: Entering `anonymous-namespace'::updateJarFileAssociation
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\jarfile\]=REG_SZ[Executable Jar File]
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\jarfile\shell\open\command\]=REG_SZ["C:\Program Files\Java\jdk1.8.0_101\bin\javaw.exe" -jar "%1" %*]
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\.jar\]=REG_SZ[jarfile]
+[2016/08/25 11:02:46.313, MsiExec.exe (PID: 6252, TID: 9096), RegistryUtils.cpp:0 (`anonymous-namespace'::updateJarFileAssociation)]
+	TRACE: Exiting `anonymous-namespace'::updateJarFileAssociation (entered at RegistryUtils.cpp:75)
+[2016/08/25 11:02:46.328, MsiExec.exe (PID: 6252, TID: 9096), RegistryUtils.cpp:100 (`anonymous-namespace'::updateJfrFileAssociation)]
+	TRACE: Entering `anonymous-namespace'::updateJfrFileAssociation
+[2016/08/25 11:02:46.328, MsiExec.exe (PID: 6252, TID: 9096), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\jfrfile\]=REG_SZ[Java Flight Recorder File]
+[2016/08/25 11:02:46.328, MsiExec.exe (PID: 6252, TID: 9096), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\jfrfile\shell\open\command\]=REG_SZ["C:\Program Files\Java\jdk1.8.0_101\bin\jmc.exe" -open "%1" %*]
+[2016/08/25 11:02:46.328, MsiExec.exe (PID: 6252, TID: 9096), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\.jfr\]=REG_SZ[jfrfile]
+[2016/08/25 11:02:46.328, MsiExec.exe (PID: 6252, TID: 9096), RegistryUtils.cpp:0 (`anonymous-namespace'::updateJfrFileAssociation)]
+	TRACE: Exiting `anonymous-namespace'::updateJfrFileAssociation (entered at RegistryUtils.cpp:100)
+[2016/08/25 11:02:46.328, MsiExec.exe (PID: 6252, TID: 9096), JavaShortcuts.cpp:315 (`anonymous-namespace'::removeShortcuts)]
+	TRACE: Entering `anonymous-namespace'::removeShortcuts
+[2016/08/25 11:02:46.328, MsiExec.exe (PID: 6252, TID: 9096), JavaShortcuts.cpp:0 (`anonymous-namespace'::removeShortcuts)]
+	TRACE: Exiting `anonymous-namespace'::removeShortcuts (entered at JavaShortcuts.cpp:315)
+[2016/08/25 11:02:46.328, MsiExec.exe (PID: 6252, TID: 9096), JavaShortcuts.cpp:266 (`anonymous-namespace'::updateShortcuts)]
+	TRACE: Entering `anonymous-namespace'::updateShortcuts
+[2016/08/25 11:02:46.343, MsiExec.exe (PID: 6252, TID: 9096), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Java Development Kit\] directory
+[2016/08/25 11:02:47.618, MsiExec.exe (PID: 6252, TID: 9096), JavaShortcuts.cpp:0 (`anonymous-namespace'::updateShortcuts)]
+	TRACE: Exiting `anonymous-namespace'::updateShortcuts (entered at JavaShortcuts.cpp:266)
+[2016/08/25 11:02:47.634, MsiExec.exe (PID: 6252, TID: 9096), AccessBridge.cpp:196 (`anonymous-namespace'::deleteJABFilesFromSystem)]
+	TRACE: Entering `anonymous-namespace'::deleteJABFilesFromSystem
+[2016/08/25 11:02:47.634, MsiExec.exe (PID: 6252, TID: 9096), AccessBridge.cpp:0 (`anonymous-namespace'::deleteJABFilesFromSystem)]
+	TRACE: Exiting `anonymous-namespace'::deleteJABFilesFromSystem (entered at AccessBridge.cpp:196)
+[2016/08/25 11:02:47.634, MsiExec.exe (PID: 6252, TID: 9096), AccessBridge.cpp:145 (`anonymous-namespace'::cleanAccessBridgeRegistry)]
+	TRACE: Entering `anonymous-namespace'::cleanAccessBridgeRegistry
+[2016/08/25 11:02:47.634, MsiExec.exe (PID: 6252, TID: 9096), AccessBridge.cpp:0 (`anonymous-namespace'::cleanAccessBridgeRegistry)]
+	TRACE: Exiting `anonymous-namespace'::cleanAccessBridgeRegistry (entered at AccessBridge.cpp:145)
+[2016/08/25 11:02:47.634, MsiExec.exe (PID: 6252, TID: 9096), JavaShortcuts.cpp:315 (`anonymous-namespace'::removeShortcuts)]
+	TRACE: Entering `anonymous-namespace'::removeShortcuts
+[2016/08/25 11:02:47.634, MsiExec.exe (PID: 6252, TID: 9096), JavaShortcuts.cpp:0 (`anonymous-namespace'::removeShortcuts)]
+	TRACE: Exiting `anonymous-namespace'::removeShortcuts (entered at JavaShortcuts.cpp:315)
+[2016/08/25 11:02:47.634, MsiExec.exe (PID: 6252, TID: 9096), RegInstallShare.cpp:95 (`anonymous-namespace'::InstallJUTConfigFile)]
+	TRACE: Entering `anonymous-namespace'::InstallJUTConfigFile
+[2016/08/25 11:02:47.634, MsiExec.exe (PID: 6252, TID: 9096), RegInstallShare.cpp:0 (`anonymous-namespace'::InstallJUTConfigFile)]
+	TRACE: Exiting `anonymous-namespace'::InstallJUTConfigFile (entered at RegInstallShare.cpp:95)
+[2016/08/25 11:02:47.634, MsiExec.exe (PID: 6252, TID: 9096), RegInstallShare.cpp:117 (`anonymous-namespace'::InstallDRSFile)]
+	TRACE: Entering `anonymous-namespace'::InstallDRSFile
+[2016/08/25 11:02:47.650, MsiExec.exe (PID: 6252, TID: 9096), RegInstallShare.cpp:0 (`anonymous-namespace'::InstallDRSFile)]
+	TRACE: Exiting `anonymous-namespace'::InstallDRSFile (entered at RegInstallShare.cpp:117)
+[2016/08/25 11:02:47.650, MsiExec.exe (PID: 6252, TID: 9096), RegInstallShare.cpp:77 (CleanupTempFiles)]
+	INFO: ** Start WINAPI CleanupTempFiles **
+[2016/08/25 11:02:47.665, MsiExec.exe (PID: 6252, TID: 9096), RegInstallShare.cpp:88 (CleanupTempFiles)]
+	INFO: ** End WINAPI CleanupTempFiles **
+[2016/08/25 11:02:47.665, MsiExec.exe (PID: 6252, TID: 9096), RegInstall.cpp:0 (MSIInstallJDK)]
+	TRACE: Exiting MSIInstallJDK (entered at RegInstall.cpp:124)
+[2016/08/25 11:02:51.121, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: Wrapper begin...
+[2016/08/25 11:02:51.137, jre.exe (PID: 8300, TID: 6088), wrapper.cpp:77 (WinMain)]
+	INFO: Running offline JRE wrapper with command line=<LAUNCHEDFROMJDK=1 NOSTARTMENU=0>
+[2016/08/25 11:02:51.152, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:472 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2016/08/25 11:02:51.152, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=64; productCode={64A3A4F4-B792-11D6-A78A-00B0D0180101}; type=1
+[2016/08/25 11:02:51.175, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:472)
+[2016/08/25 11:02:51.190, jre.exe (PID: 8300, TID: 6088), UpdateConf.cpp:401 (SetJavaSoftKey)]
+	ERROR: Exception with message 'Registry.cpp(436) at Registry::deleteValue(): delete value (HKLM\SOFTWARE\JavaSoft\InstallStatus) error. System error [2](system error 2 (The system cannot find the file specified))' caught
+[2016/08/25 11:02:51.190, jre.exe (PID: 8300, TID: 6088), wrapper.cpp:122 (WinMain)]
+	TRACE: No Old JRE Version found
+[2016/08/25 11:02:51.206, jre.exe (PID: 8300, TID: 6088), AuMsi.cpp:70 (au::InstalledState::detect)]
+	TRACE: No Old AU Version found
+[2016/08/25 11:02:51.221, jre.exe (PID: 8300, TID: 6088), wrapper.cpp:138 (WinMain)]
+	TRACE: Wrapper Load ConfigSettings...
+[2016/08/25 11:02:51.221, jre.exe (PID: 8300, TID: 6088), InstallConfigData.cpp:160 (InstallConfigData::InstallConfigData)]
+	TRACE: Entering InstallConfigData::InstallConfigData
+[2016/08/25 11:02:51.221, jre.exe (PID: 8300, TID: 6088), InstallConfigData.cpp:217 (InstallConfigData::InitConfig)]
+	INFO: Default config settings are: 
+INSTALL_SILENT=Disable
+STATIC=Disable
+AUTO_UPDATE=Enable
+WEB_ANALYTICS=Enable
+EULA=Disable
+SPONSORS=Enable
+OEMUPDATE=Disable
+
+[2016/08/25 11:02:51.221, jre.exe (PID: 8300, TID: 6088), InstallConfigData.cpp:0 (InstallConfigData::InstallConfigData)]
+	TRACE: Exiting InstallConfigData::InstallConfigData (entered at InstallConfigData.cpp:160)
+[2016/08/25 11:02:51.221, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: -->Loading Important args...
+[2016/08/25 11:02:51.221, jre.exe (PID: 8300, TID: 6088), InstallConfigData.cpp:493 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Entering InstallConfigData::ImportArgsConfigSettings
+[2016/08/25 11:02:51.237, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing command line arguments
+[2016/08/25 11:02:51.237, jre.exe (PID: 8300, TID: 6088), InstallConfigData.cpp:0 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Exiting InstallConfigData::ImportArgsConfigSettings (entered at InstallConfigData.cpp:493)
+[2016/08/25 11:02:51.237, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: |------Important args config (TMP)--------|
+
+INSTALL_SILENT = Disable
+STATIC = Disable
+AUTO_UPDATE = Enable
+SPONSORS = Enable
+WEB_ANALYTICS = Enable
+EULA = Disable
+OEMUPDATE = Disable
+LAUNCHEDFROMJDK = 1
+NOSTARTMENU = 0
+|-------------------------------------|
+
+[2016/08/25 11:02:51.237, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: -->Loading Config...
+[2016/08/25 11:02:51.237, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing runtime configuration file...
+[2016/08/25 11:02:51.237, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:129 (logit)]
+	INFO: Runtime config file path is C:\ProgramData\Oracle\Java\java.settings.cfg
+[2016/08/25 11:02:51.253, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: Runtime configuration file doesn't exist. It will be created later by settings_api.
+[2016/08/25 11:02:51.253, jre.exe (PID: 8300, TID: 6088), InstallConfigData.cpp:493 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Entering InstallConfigData::ImportArgsConfigSettings
+[2016/08/25 11:02:51.253, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing command line arguments
+[2016/08/25 11:02:51.253, jre.exe (PID: 8300, TID: 6088), InstallConfigData.cpp:0 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Exiting InstallConfigData::ImportArgsConfigSettings (entered at InstallConfigData.cpp:493)
+[2016/08/25 11:02:51.253, jre.exe (PID: 8300, TID: 6088), InstallConfigData.cpp:603 (InstallConfigData::CheckParams)]
+	TRACE: Entering InstallConfigData::CheckParams
+[2016/08/25 11:02:51.253, jre.exe (PID: 8300, TID: 6088), InstallConfigData.cpp:0 (InstallConfigData::CheckParams)]
+	TRACE: Exiting InstallConfigData::CheckParams (entered at InstallConfigData.cpp:603)
+[2016/08/25 11:02:51.268, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: -->Saving backup...
+[2016/08/25 11:02:51.270, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing runtime configuration file...
+[2016/08/25 11:02:51.273, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:129 (logit)]
+	INFO: Runtime config file path is C:\ProgramData\Oracle\Java\java.settings.cfg
+[2016/08/25 11:02:51.274, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: Runtime configuration file doesn't exist. It will be created later by settings_api.
+[2016/08/25 11:02:51.274, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: |------Config to backup--------|
+
+|-------------------------------------|
+
+[2016/08/25 11:02:51.274, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: -->Loading export config...
+[2016/08/25 11:02:51.274, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing runtime configuration file...
+[2016/08/25 11:02:51.274, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:129 (logit)]
+	INFO: Runtime config file path is C:\ProgramData\Oracle\Java\java.settings.cfg
+[2016/08/25 11:02:51.274, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: Runtime configuration file doesn't exist. It will be created later by settings_api.
+[2016/08/25 11:02:51.290, jre.exe (PID: 8300, TID: 6088), InstallConfigData.cpp:493 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Entering InstallConfigData::ImportArgsConfigSettings
+[2016/08/25 11:02:51.290, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing command line arguments
+[2016/08/25 11:02:51.290, jre.exe (PID: 8300, TID: 6088), InstallConfigData.cpp:0 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Exiting InstallConfigData::ImportArgsConfigSettings (entered at InstallConfigData.cpp:493)
+[2016/08/25 11:02:51.290, jre.exe (PID: 8300, TID: 6088), InstallConfigData.cpp:603 (InstallConfigData::CheckParams)]
+	TRACE: Entering InstallConfigData::CheckParams
+[2016/08/25 11:02:51.290, jre.exe (PID: 8300, TID: 6088), InstallConfigData.cpp:0 (InstallConfigData::CheckParams)]
+	TRACE: Exiting InstallConfigData::CheckParams (entered at InstallConfigData.cpp:603)
+[2016/08/25 11:02:51.290, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: -->Adding CMDLINE to config...
+[2016/08/25 11:02:51.306, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: -->Normalizing Export...
+[2016/08/25 11:02:51.306, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: |------Config to export--------|
+
+NOSTARTMENU = 0
+|-------------------------------------|
+
+[2016/08/25 11:02:51.306, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: |------!!!!Working config!!!!--------|
+
+INSTALL_SILENT = Disable
+STATIC = Disable
+AUTO_UPDATE = Enable
+SPONSORS = Enable
+WEB_ANALYTICS = Enable
+EULA = Disable
+OEMUPDATE = Disable
+LAUNCHEDFROMJDK = 1
+NOSTARTMENU = 0
+CMDLINE = NOSTARTMENU="0"
+|-------------------------------------|
+
+[2016/08/25 11:02:51.306, jre.exe (PID: 8300, TID: 6088), Locales.cpp:318 (Locale::preferredLanguages)]
+	INFO: PreferredUILanguages: Vista+
+[2016/08/25 11:02:51.306, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: Wrapper, check for reinstall case..
+[2016/08/25 11:02:51.321, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:472 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2016/08/25 11:02:51.321, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=64; productCode={64A3A4F4-B792-11D6-A78A-00B0D0180101}; type=1
+[2016/08/25 11:02:51.321, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:139 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {64A3A4F4-B792-11D6-A78A-00B0D0180101} Java installation
+[2016/08/25 11:02:51.321, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:303 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {64A3A4F4-B792-11D6-A78A-00B0D0180101} Java installation
+[2016/08/25 11:02:51.321, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:214 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({64A3A4F4-B792-11D6-A78A-00B0D0180101})
+[2016/08/25 11:02:51.337, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:451 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(1.8.0_101-b13|1.8.0_101-b13|JDK|64bit|C:\Program Files\Java\jdk1.8.0_101|{64A3A4F4-B792-11D6-A78A-00B0D0180101}|-10)
+[2016/08/25 11:02:51.337, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:472)
+[2016/08/25 11:02:51.337, jre.exe (PID: 8300, TID: 6088), wrapper.cpp:247 (WinMain)]
+	INFO: The installer is 64 bit, set bShowVerifyPage = FALSE
+[2016/08/25 11:02:51.353, jre.exe (PID: 8300, TID: 6088), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jre1.8.0_101_x64] directory
+[2016/08/25 11:02:51.353, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: Wrapper: Extract MSI ...
+[2016/08/25 11:02:51.437, jre.exe (PID: 8300, TID: 6088), NetUtils.cpp:93 (HttpConnection::connect)]
+	TRACE: HttpConnection::connect(url=https://javadl-esd-secure.oracle.com/update/1.8.0/1.8.0_101-b13.xml)
+[2016/08/25 11:02:51.490, jre.exe (PID: 8300, TID: 6088), WrapperOffline.cpp:118 (GetOptionsFromXmlIfOnline)]
+	ERROR: Exception with message 'NetUtils.cpp(176) at HttpConnection::connect(): HttpSendRequest failed: system error 12007 (The server name or address could not be resolved)' caught
+[2016/08/25 11:02:51.490, jre.exe (PID: 8300, TID: 6088), Locales.cpp:318 (Locale::preferredLanguages)]
+	INFO: PreferredUILanguages: Vista+
+[2016/08/25 11:02:51.490, jre.exe (PID: 8300, TID: 6088), UIThread.cpp:89 (ui::`anonymous-namespace'::initDPIAware)]
+	TRACE: SetProcessDPIAware succeeded
+[2016/08/25 11:02:51.506, jre.exe (PID: 8300, TID: 80), BrowserWindow.cpp:223 (ui::BrowserWindow::scale2systemDPI)]
+	TRACE: systemDPI: [96, 96] scaled [500, 354] to [500, 354]
+[2016/08/25 11:02:52.394, jre.exe (PID: 8300, TID: 80), BrowserControl.cpp:930 (ui::BrowserControl::QueryCustomPolicy)]
+	WARNING: QueryCustomPolicy: url='res://C:%5CProgram%20Files%5CJava%5Cjdk1.8.0_101%5Cjre.exe/change_folder.html'
+[2016/08/25 11:02:52.441, jre.exe (PID: 8300, TID: 80), Dialog.cpp:211 (ui::Dialog::setWindowProp)]
+	INFO: setWindowProp(Title): Java Setup - Destination Folder
+[2016/08/25 11:03:14.923, jre.exe (PID: 8300, TID: 6088), wrapper.cpp:358 (WinMain)]
+	INFO: MSI command line: NOSTARTMENU="0" INSTALLDIR="C:\Program Files\Java\jre1.8.0_101"
+[2016/08/25 11:03:14.926, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: ...Exporting config settings
+[2016/08/25 11:03:14.926, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: ...Exporting config settings
+[2016/08/25 11:03:14.926, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: Writing to the runtime config file.
+[2016/08/25 11:03:14.959, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: Wrapper: Execute MSI ...
+[2016/08/25 11:03:14.962, jre.exe (PID: 8300, TID: 6088), UIThread.cpp:89 (ui::`anonymous-namespace'::initDPIAware)]
+	TRACE: SetProcessDPIAware succeeded
+[2016/08/25 11:03:14.967, jre.exe (PID: 8300, TID: 2416), BrowserWindow.cpp:223 (ui::BrowserWindow::scale2systemDPI)]
+	TRACE: systemDPI: [96, 96] scaled [500, 354] to [500, 354]
+[2016/08/25 11:03:15.025, jre.exe (PID: 8300, TID: 2416), Dialog.cpp:241 (ui::Dialog::setWindowProp)]
+	INFO: setWindowProp(closeButton): 0
+[2016/08/25 11:03:15.065, jre.exe (PID: 8300, TID: 2416), BrowserControl.cpp:930 (ui::BrowserControl::QueryCustomPolicy)]
+	WARNING: QueryCustomPolicy: url='res://C:%5CProgram%20Files%5CJava%5Cjdk1.8.0_101%5Cjre.exe/progress.html'
+[2016/08/25 11:03:15.073, jre.exe (PID: 8300, TID: 2416), Dialog.cpp:211 (ui::Dialog::setWindowProp)]
+	INFO: setWindowProp(Title): Java Setup - Progress
+[2016/08/25 11:03:17.378, installer.exe (PID: 10024, TID: 9532), installer.cpp:34 (WinMain)]
+	TRACE: Entered installer.exe WinMain.
+[2016/08/25 11:03:17.388, installer.exe (PID: 10024, TID: 9532), InstallConfigData.cpp:160 (InstallConfigData::InstallConfigData)]
+	TRACE: Entering InstallConfigData::InstallConfigData
+[2016/08/25 11:03:17.397, installer.exe (PID: 10024, TID: 9532), InstallConfigData.cpp:217 (InstallConfigData::InitConfig)]
+	INFO: Default config settings are: 
+INSTALL_SILENT=Disable
+STATIC=Disable
+AUTO_UPDATE=Enable
+WEB_ANALYTICS=Enable
+EULA=Disable
+SPONSORS=Enable
+OEMUPDATE=Disable
+
+[2016/08/25 11:03:17.404, installer.exe (PID: 10024, TID: 9532), InstallConfigData.cpp:0 (InstallConfigData::InstallConfigData)]
+	TRACE: Exiting InstallConfigData::InstallConfigData (entered at InstallConfigData.cpp:160)
+[2016/08/25 11:03:17.408, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: -->Loading Important args...
+[2016/08/25 11:03:17.412, installer.exe (PID: 10024, TID: 9532), InstallConfigData.cpp:493 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Entering InstallConfigData::ImportArgsConfigSettings
+[2016/08/25 11:03:17.416, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing command line arguments
+[2016/08/25 11:03:17.421, installer.exe (PID: 10024, TID: 9532), InstallConfigData.cpp:0 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Exiting InstallConfigData::ImportArgsConfigSettings (entered at InstallConfigData.cpp:493)
+[2016/08/25 11:03:17.425, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: |------Important args config (TMP)--------|
+
+INSTALL_SILENT = Disable
+STATIC = Disable
+AUTO_UPDATE = Enable
+SPONSORS = Enable
+WEB_ANALYTICS = Enable
+EULA = Disable
+OEMUPDATE = Disable
+REPAIRMODE = 0
+NOSTARTMENU = 0
+INSTALLDIR = C:\Program Files\Java\jre1.8.0_101\
+ProductCode = {26A24AE4-039D-4CA4-87B4-2F64180101F0}
+/s = 1
+|-------------------------------------|
+
+[2016/08/25 11:03:17.426, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: -->Loading Config...
+[2016/08/25 11:03:17.426, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing runtime configuration file...
+[2016/08/25 11:03:17.426, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:129 (logit)]
+	INFO: Runtime config file path is C:\ProgramData\Oracle\Java\java.settings.cfg
+[2016/08/25 11:03:17.442, installer.exe (PID: 10024, TID: 9532), InstallConfigData.cpp:493 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Entering InstallConfigData::ImportArgsConfigSettings
+[2016/08/25 11:03:17.446, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing command line arguments
+[2016/08/25 11:03:17.449, installer.exe (PID: 10024, TID: 9532), InstallConfigData.cpp:0 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Exiting InstallConfigData::ImportArgsConfigSettings (entered at InstallConfigData.cpp:493)
+[2016/08/25 11:03:17.452, installer.exe (PID: 10024, TID: 9532), InstallConfigData.cpp:603 (InstallConfigData::CheckParams)]
+	TRACE: Entering InstallConfigData::CheckParams
+[2016/08/25 11:03:17.454, installer.exe (PID: 10024, TID: 9532), InstallConfigData.cpp:0 (InstallConfigData::CheckParams)]
+	TRACE: Exiting InstallConfigData::CheckParams (entered at InstallConfigData.cpp:603)
+[2016/08/25 11:03:17.457, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: -->Saving backup...
+[2016/08/25 11:03:17.459, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing runtime configuration file...
+[2016/08/25 11:03:17.461, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:129 (logit)]
+	INFO: Runtime config file path is C:\ProgramData\Oracle\Java\java.settings.cfg
+[2016/08/25 11:03:17.464, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: |------Config to backup--------|
+
+NOSTARTMENU = 0
+|-------------------------------------|
+
+[2016/08/25 11:03:17.467, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: -->Loading export config...
+[2016/08/25 11:03:17.469, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing runtime configuration file...
+[2016/08/25 11:03:17.471, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:129 (logit)]
+	INFO: Runtime config file path is C:\ProgramData\Oracle\Java\java.settings.cfg
+[2016/08/25 11:03:17.474, installer.exe (PID: 10024, TID: 9532), InstallConfigData.cpp:493 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Entering InstallConfigData::ImportArgsConfigSettings
+[2016/08/25 11:03:17.476, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: ...Importing command line arguments
+[2016/08/25 11:03:17.479, installer.exe (PID: 10024, TID: 9532), InstallConfigData.cpp:0 (InstallConfigData::ImportArgsConfigSettings)]
+	TRACE: Exiting InstallConfigData::ImportArgsConfigSettings (entered at InstallConfigData.cpp:493)
+[2016/08/25 11:03:17.481, installer.exe (PID: 10024, TID: 9532), InstallConfigData.cpp:603 (InstallConfigData::CheckParams)]
+	TRACE: Entering InstallConfigData::CheckParams
+[2016/08/25 11:03:17.484, installer.exe (PID: 10024, TID: 9532), InstallConfigData.cpp:0 (InstallConfigData::CheckParams)]
+	TRACE: Exiting InstallConfigData::CheckParams (entered at InstallConfigData.cpp:603)
+[2016/08/25 11:03:17.486, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: -->Adding CMDLINE to config...
+[2016/08/25 11:03:17.489, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: -->Normalizing Export...
+[2016/08/25 11:03:17.493, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: |------Config to export--------|
+
+NOSTARTMENU = 0
+|-------------------------------------|
+
+[2016/08/25 11:03:17.495, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: |------!!!!Working config!!!!--------|
+
+INSTALL_SILENT = Disable
+STATIC = Disable
+AUTO_UPDATE = Enable
+SPONSORS = Enable
+WEB_ANALYTICS = Enable
+EULA = Disable
+OEMUPDATE = Disable
+REPAIRMODE = 0
+NOSTARTMENU = 0
+INSTALLDIR = C:\Program Files\Java\jre1.8.0_101\
+ProductCode = {26A24AE4-039D-4CA4-87B4-2F64180101F0}
+CMDLINE = REPAIRMODE="0" NOSTARTMENU="0" INSTALLDIR="C:\Program Files\Java\jre1.8.0_101\" ProductCode="{26A24AE4-039D-4CA4-87B4-2F64180101F0}"
+/s = 1
+|-------------------------------------|
+
+[2016/08/25 11:03:17.498, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: ...Exporting config settings
+[2016/08/25 11:03:17.500, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: Nothing new to export to runtime.
+[2016/08/25 11:03:17.502, installer.exe (PID: 10024, TID: 9532), JavaEnvironment.cpp:472 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2016/08/25 11:03:17.505, installer.exe (PID: 10024, TID: 9532), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_101; arch=64; productCode={26A24AE4-039D-4CA4-87B4-2F64180101F0}; type=0
+[2016/08/25 11:03:17.506, installer.exe (PID: 10024, TID: 9532), JavaEnvironment.cpp:139 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/08/25 11:03:17.506, installer.exe (PID: 10024, TID: 9532), JavaEnvironment.cpp:303 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/08/25 11:03:17.506, installer.exe (PID: 10024, TID: 9532), JavaEnvironment.cpp:214 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({26A24AE4-039D-4CA4-87B4-2F64180101F0})
+[2016/08/25 11:03:17.521, installer.exe (PID: 10024, TID: 9532), JavaEnvironment.cpp:327 (`anonymous-namespace'::detectJreMode)]
+	TRACE: Detect mode of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/08/25 11:03:17.525, installer.exe (PID: 10024, TID: 9532), JavaEnvironment.cpp:451 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(1.8.0_101-b13|1.8.0_101-b13|JRE|64bit|C:\Program Files\Java\jre1.8.0_101|{26A24AE4-039D-4CA4-87B4-2F64180101F0}|10)
+[2016/08/25 11:03:17.527, installer.exe (PID: 10024, TID: 9532), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=64; productCode={64A3A4F4-B792-11D6-A78A-00B0D0180101}; type=1
+[2016/08/25 11:03:17.530, installer.exe (PID: 10024, TID: 9532), JavaEnvironment.cpp:139 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {64A3A4F4-B792-11D6-A78A-00B0D0180101} Java installation
+[2016/08/25 11:03:17.532, installer.exe (PID: 10024, TID: 9532), JavaEnvironment.cpp:303 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {64A3A4F4-B792-11D6-A78A-00B0D0180101} Java installation
+[2016/08/25 11:03:17.534, installer.exe (PID: 10024, TID: 9532), JavaEnvironment.cpp:214 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({64A3A4F4-B792-11D6-A78A-00B0D0180101})
+[2016/08/25 11:03:17.538, installer.exe (PID: 10024, TID: 9532), JavaEnvironment.cpp:451 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(1.8.0_101-b13|1.8.0_101-b13|JDK|64bit|C:\Program Files\Java\jdk1.8.0_101|{64A3A4F4-B792-11D6-A78A-00B0D0180101}|-10)
+[2016/08/25 11:03:17.547, installer.exe (PID: 10024, TID: 9532), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:472)
+[2016/08/25 11:03:17.550, installer.exe (PID: 10024, TID: 9532), RegInstallJRE.cpp:26 (InstallJRE)]
+	TRACE: -- InstallJRE() begin
+[2016/08/25 11:03:17.558, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\ProgramData\Oracle\Java\installcache_x64] directory
+[2016/08/25 11:03:17.561, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:348 (FileUtils::`anonymous-namespace'::createNewFile)]
+	TRACE: Created [C:\ProgramData\Oracle\Java\installcache_x64\78916203.tmp] file
+[2016/08/25 11:03:17.564, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:529 (FileUtils::deleteFile)]
+	TRACE: Deleted [C:\ProgramData\Oracle\Java\installcache_x64\78916203.tmp] file
+[2016/08/25 11:03:17.574, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\ProgramData\Oracle\Java\installcache_x64\78916203.tmp\] directory
+[2016/08/25 11:03:17.577, installer.exe (PID: 10024, TID: 9532), InstallerUtils.cpp:24 (ExtractFiles)]
+	TRACE: Entering ExtractFiles
+[2016/08/25 11:03:17.579, installer.exe (PID: 10024, TID: 9532), InstallerUtils.cpp:48 (ExtractFiles)]
+	TRACE: Extracting resource 5 into "C:\ProgramData\Oracle\Java\installcache_x64\78916203.tmp\diff"...
+[2016/08/25 11:03:17.615, installer.exe (PID: 10024, TID: 9532), InstallerUtils.cpp:48 (ExtractFiles)]
+	TRACE: Extracting resource 7 into "C:\ProgramData\Oracle\Java\installcache_x64\78916203.tmp\bspatch.exe"...
+[2016/08/25 11:03:17.674, installer.exe (PID: 10024, TID: 9532), InstallerUtils.cpp:48 (ExtractFiles)]
+	TRACE: Extracting resource 6 into "C:\ProgramData\Oracle\Java\installcache_x64\78916203.tmp\baseimagefam8"...
+[2016/08/25 11:03:17.786, installer.exe (PID: 10024, TID: 9532), AllUtils.cpp:125 (logit)]
+	INFO: successfully extracted files for install, return true 
+[2016/08/25 11:03:17.786, installer.exe (PID: 10024, TID: 9532), InstallerUtils.cpp:0 (ExtractFiles)]
+	TRACE: Exiting ExtractFiles (entered at InstallerUtils.cpp:24)
+[2016/08/25 11:03:19.117, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:442 (FileUtils::copyFile)]
+	TRACE: Copied [C:\ProgramData\Oracle\Java\installcache_x64\78916203.tmp\baseimagefam8] file to [C:\ProgramData\Oracle\Java\installcache_x64\baseimagefam8]
+[2016/08/25 11:03:19.120, installer.exe (PID: 10024, TID: 9532), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "bspatch.exe" baseimagefam8 newimage diff
+[2016/08/25 11:03:25.980, installer.exe (PID: 10024, TID: 9532), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:03:25.986, installer.exe (PID: 10024, TID: 9532), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:03:26.034, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\bin\] directory
+[2016/08/25 11:03:26.125, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\bin/dtplugin\] directory
+[2016/08/25 11:03:27.806, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\bin/plugin2\] directory
+[2016/08/25 11:03:27.965, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\bin/server\] directory
+[2016/08/25 11:03:28.315, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\lib\] directory
+[2016/08/25 11:03:28.319, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\lib/amd64\] directory
+[2016/08/25 11:03:28.325, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\lib/applet\] directory
+[2016/08/25 11:03:28.345, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\lib/cmm\] directory
+[2016/08/25 11:03:28.365, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\lib/deploy\] directory
+[2016/08/25 11:03:28.425, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\lib/ext\] directory
+[2016/08/25 11:03:28.791, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\lib/fonts\] directory
+[2016/08/25 11:03:28.826, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\lib/images\] directory
+[2016/08/25 11:03:28.826, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\lib/images/cursors\] directory
+[2016/08/25 11:03:28.847, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\lib/jfr\] directory
+[2016/08/25 11:03:28.895, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\lib/management\] directory
+[2016/08/25 11:03:28.952, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Program Files\Java\jre1.8.0_101\lib/security\] directory
+[2016/08/25 11:03:29.129, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:529 (FileUtils::deleteFile)]
+	TRACE: Deleted [C:\ProgramData\Oracle\Java\installcache_x64\78916203.tmp\baseimagefam8] file
+[2016/08/25 11:03:29.133, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:529 (FileUtils::deleteFile)]
+	TRACE: Deleted [C:\ProgramData\Oracle\Java\installcache_x64\78916203.tmp\bspatch.exe] file
+[2016/08/25 11:03:29.136, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:529 (FileUtils::deleteFile)]
+	TRACE: Deleted [C:\ProgramData\Oracle\Java\installcache_x64\78916203.tmp\diff] file
+[2016/08/25 11:03:29.136, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:529 (FileUtils::deleteFile)]
+	TRACE: Deleted [C:\ProgramData\Oracle\Java\installcache_x64\78916203.tmp\newimage] file
+[2016/08/25 11:03:29.152, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:547 (FileUtils::deleteDirectory)]
+	TRACE: deleteDirectory(C:\ProgramData\Oracle\Java\installcache_x64\78916203.tmp)
+[2016/08/25 11:03:29.155, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:550 (FileUtils::deleteDirectory)]
+	TRACE: Deleted [C:\ProgramData\Oracle\Java\installcache_x64\78916203.tmp] directory
+[2016/08/25 11:03:29.158, installer.exe (PID: 10024, TID: 9532), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jre1.8.0_101\bin\unpack200.exe" -r "C:\Program Files\Java\jre1.8.0_101\lib/plugin.pack" "C:\Program Files\Java\jre1.8.0_101\lib/plugin.jar"
+[2016/08/25 11:03:29.223, installer.exe (PID: 10024, TID: 9532), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:03:29.226, installer.exe (PID: 10024, TID: 9532), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:03:29.226, installer.exe (PID: 10024, TID: 9532), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jre1.8.0_101\bin\unpack200.exe" -r "C:\Program Files\Java\jre1.8.0_101\lib/javaws.pack" "C:\Program Files\Java\jre1.8.0_101\lib/javaws.jar"
+[2016/08/25 11:03:29.262, installer.exe (PID: 10024, TID: 9532), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:03:29.265, installer.exe (PID: 10024, TID: 9532), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:03:29.267, installer.exe (PID: 10024, TID: 9532), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jre1.8.0_101\bin\unpack200.exe" -r "C:\Program Files\Java\jre1.8.0_101\lib/deploy.pack" "C:\Program Files\Java\jre1.8.0_101\lib/deploy.jar"
+[2016/08/25 11:03:29.366, installer.exe (PID: 10024, TID: 9532), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:03:29.366, installer.exe (PID: 10024, TID: 9532), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:03:29.366, installer.exe (PID: 10024, TID: 9532), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jre1.8.0_101\bin\unpack200.exe" -r "C:\Program Files\Java\jre1.8.0_101\lib/rt.pack" "C:\Program Files\Java\jre1.8.0_101\lib/rt.jar"
+[2016/08/25 11:03:30.393, installer.exe (PID: 10024, TID: 9532), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:03:30.396, installer.exe (PID: 10024, TID: 9532), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:03:30.400, installer.exe (PID: 10024, TID: 9532), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jre1.8.0_101\bin\unpack200.exe" -r "C:\Program Files\Java\jre1.8.0_101\lib/jsse.pack" "C:\Program Files\Java\jre1.8.0_101\lib/jsse.jar"
+[2016/08/25 11:03:30.428, installer.exe (PID: 10024, TID: 9532), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:03:30.431, installer.exe (PID: 10024, TID: 9532), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:03:30.434, installer.exe (PID: 10024, TID: 9532), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jre1.8.0_101\bin\unpack200.exe" -r "C:\Program Files\Java\jre1.8.0_101\lib/charsets.pack" "C:\Program Files\Java\jre1.8.0_101\lib/charsets.jar"
+[2016/08/25 11:03:30.478, installer.exe (PID: 10024, TID: 9532), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:03:30.481, installer.exe (PID: 10024, TID: 9532), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:03:30.484, installer.exe (PID: 10024, TID: 9532), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jre1.8.0_101\bin\unpack200.exe" -r "C:\Program Files\Java\jre1.8.0_101\lib/ext/localedata.pack" "C:\Program Files\Java\jre1.8.0_101\lib/ext/localedata.jar"
+[2016/08/25 11:03:30.536, installer.exe (PID: 10024, TID: 9532), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:03:30.536, installer.exe (PID: 10024, TID: 9532), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:03:30.536, installer.exe (PID: 10024, TID: 9532), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files\Java\jre1.8.0_101\bin\javaw.exe" -Xshare:dump
+[2016/08/25 11:03:31.223, installer.exe (PID: 10024, TID: 9532), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:03:31.225, installer.exe (PID: 10024, TID: 9532), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:03:31.225, installer.exe (PID: 10024, TID: 9532), RegInstallShare.cpp:143 (InstallJava)]
+	TRACE: InstallJava(1.8.0_101-b13)
+[2016/08/25 11:03:31.225, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\JavaSoft\Java Runtime Environment\1.8.0_101\JavaHome]=REG_SZ[C:\Program Files\Java\jre1.8.0_101]
+[2016/08/25 11:03:31.225, installer.exe (PID: 10024, TID: 9532), RegistryUtils.cpp:160 (`anonymous-namespace'::updateCurrentFamilyVersion)]
+	TRACE: Entering `anonymous-namespace'::updateCurrentFamilyVersion
+[2016/08/25 11:03:31.225, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\JavaSoft\Java Runtime Environment\1.8\RuntimeLib]=REG_SZ[C:\Program Files\Java\jre1.8.0_101\bin\server\jvm.dll]
+[2016/08/25 11:03:31.225, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\JavaSoft\Java Runtime Environment\1.8\JavaHome]=REG_SZ[C:\Program Files\Java\jre1.8.0_101]
+[2016/08/25 11:03:31.241, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\JavaSoft\Java Runtime Environment\1.8\MicroVersion]=REG_SZ[0]
+[2016/08/25 11:03:31.244, installer.exe (PID: 10024, TID: 9532), RegistryUtils.cpp:0 (`anonymous-namespace'::updateCurrentFamilyVersion)]
+	TRACE: Exiting `anonymous-namespace'::updateCurrentFamilyVersion (entered at RegistryUtils.cpp:160)
+[2016/08/25 11:03:31.246, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\JavaSoft\Java Runtime Environment\CurrentVersion]=REG_SZ[1.8]
+[2016/08/25 11:03:31.249, installer.exe (PID: 10024, TID: 9532), Registry.cpp:485 (Registry::deleteSubkey)]
+	TRACE: Deleted [HKLM64\Software\JavaSoft\Java Development Kit\1.8] key
+[2016/08/25 11:03:31.252, installer.exe (PID: 10024, TID: 9532), RegistryUtils.cpp:160 (`anonymous-namespace'::updateCurrentFamilyVersion)]
+	TRACE: Entering `anonymous-namespace'::updateCurrentFamilyVersion
+[2016/08/25 11:03:31.254, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\JavaSoft\Java Development Kit\1.8\JavaHome]=REG_SZ[C:\Program Files\Java\jdk1.8.0_101]
+[2016/08/25 11:03:31.257, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\JavaSoft\Java Development Kit\1.8\MicroVersion]=REG_SZ[0]
+[2016/08/25 11:03:31.259, installer.exe (PID: 10024, TID: 9532), RegistryUtils.cpp:0 (`anonymous-namespace'::updateCurrentFamilyVersion)]
+	TRACE: Exiting `anonymous-namespace'::updateCurrentFamilyVersion (entered at RegistryUtils.cpp:160)
+[2016/08/25 11:03:31.261, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\JavaSoft\Java Development Kit\CurrentVersion]=REG_SZ[1.8]
+[2016/08/25 11:03:31.265, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\Applications\java.exe\IsHostApp]=REG_SZ[]
+[2016/08/25 11:03:31.268, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\Applications\javaw.exe\IsHostApp]=REG_SZ[]
+[2016/08/25 11:03:31.270, installer.exe (PID: 10024, TID: 9532), RegistryUtils.cpp:75 (`anonymous-namespace'::updateJarFileAssociation)]
+	TRACE: Entering `anonymous-namespace'::updateJarFileAssociation
+[2016/08/25 11:03:31.272, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\jarfile\]=REG_SZ[Executable Jar File]
+[2016/08/25 11:03:31.275, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\jarfile\shell\open\command\]=REG_SZ["C:\Program Files\Java\jre1.8.0_101\bin\javaw.exe" -jar "%1" %*]
+[2016/08/25 11:03:31.277, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\.jar\]=REG_SZ[jarfile]
+[2016/08/25 11:03:31.280, installer.exe (PID: 10024, TID: 9532), RegistryUtils.cpp:0 (`anonymous-namespace'::updateJarFileAssociation)]
+	TRACE: Exiting `anonymous-namespace'::updateJarFileAssociation (entered at RegistryUtils.cpp:75)
+[2016/08/25 11:03:31.282, installer.exe (PID: 10024, TID: 9532), RegistryUtils.cpp:100 (`anonymous-namespace'::updateJfrFileAssociation)]
+	TRACE: Entering `anonymous-namespace'::updateJfrFileAssociation
+[2016/08/25 11:03:31.285, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\jfrfile\]=REG_SZ[Java Flight Recorder File]
+[2016/08/25 11:03:31.287, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\jfrfile\shell\open\command\]=REG_SZ["C:\Program Files\Java\jdk1.8.0_101\bin\jmc.exe" -open "%1" %*]
+[2016/08/25 11:03:31.289, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\Software\Classes\.jfr\]=REG_SZ[jfrfile]
+[2016/08/25 11:03:31.291, installer.exe (PID: 10024, TID: 9532), RegistryUtils.cpp:0 (`anonymous-namespace'::updateJfrFileAssociation)]
+	TRACE: Exiting `anonymous-namespace'::updateJfrFileAssociation (entered at RegistryUtils.cpp:100)
+[2016/08/25 11:03:31.294, installer.exe (PID: 10024, TID: 9532), JavaShortcuts.cpp:266 (`anonymous-namespace'::updateShortcuts)]
+	TRACE: Entering `anonymous-namespace'::updateShortcuts
+[2016/08/25 11:03:31.298, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Java\] directory
+[2016/08/25 11:03:31.357, installer.exe (PID: 10024, TID: 9532), JavaShortcuts.cpp:0 (`anonymous-namespace'::updateShortcuts)]
+	TRACE: Exiting `anonymous-namespace'::updateShortcuts (entered at JavaShortcuts.cpp:266)
+[2016/08/25 11:03:31.360, installer.exe (PID: 10024, TID: 9532), JavaShortcuts.cpp:266 (`anonymous-namespace'::updateShortcuts)]
+	TRACE: Entering `anonymous-namespace'::updateShortcuts
+[2016/08/25 11:03:31.363, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:529 (FileUtils::deleteFile)]
+	TRACE: Deleted [C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Java Development Kit\Java Mission Control.lnk] file
+[2016/08/25 11:03:31.366, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:529 (FileUtils::deleteFile)]
+	TRACE: Deleted [C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Java Development Kit\Reference Documentation.url] file
+[2016/08/25 11:03:31.376, installer.exe (PID: 10024, TID: 9532), JavaShortcuts.cpp:0 (`anonymous-namespace'::updateShortcuts)]
+	TRACE: Exiting `anonymous-namespace'::updateShortcuts (entered at JavaShortcuts.cpp:266)
+[2016/08/25 11:03:31.376, installer.exe (PID: 10024, TID: 9532), AccessBridge.cpp:196 (`anonymous-namespace'::deleteJABFilesFromSystem)]
+	TRACE: Entering `anonymous-namespace'::deleteJABFilesFromSystem
+[2016/08/25 11:03:31.376, installer.exe (PID: 10024, TID: 9532), AccessBridge.cpp:0 (`anonymous-namespace'::deleteJABFilesFromSystem)]
+	TRACE: Exiting `anonymous-namespace'::deleteJABFilesFromSystem (entered at AccessBridge.cpp:196)
+[2016/08/25 11:03:31.376, installer.exe (PID: 10024, TID: 9532), AccessBridge.cpp:145 (`anonymous-namespace'::cleanAccessBridgeRegistry)]
+	TRACE: Entering `anonymous-namespace'::cleanAccessBridgeRegistry
+[2016/08/25 11:03:31.376, installer.exe (PID: 10024, TID: 9532), AccessBridge.cpp:0 (`anonymous-namespace'::cleanAccessBridgeRegistry)]
+	TRACE: Exiting `anonymous-namespace'::cleanAccessBridgeRegistry (entered at AccessBridge.cpp:145)
+[2016/08/25 11:03:31.393, installer.exe (PID: 10024, TID: 9532), AccessBridge.cpp:172 (`anonymous-namespace'::copyJabDllToSystem)]
+	TRACE: Entering `anonymous-namespace'::copyJabDllToSystem
+[2016/08/25 11:03:31.397, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:442 (FileUtils::copyFile)]
+	TRACE: Copied [C:\Program Files\Java\jre1.8.0_101\bin\WindowsAccessBridge-64.dll] file to [C:\WINDOWS\system32\WindowsAccessBridge-64.dll]
+[2016/08/25 11:03:31.400, installer.exe (PID: 10024, TID: 9532), AccessBridge.cpp:0 (`anonymous-namespace'::copyJabDllToSystem)]
+	TRACE: Exiting `anonymous-namespace'::copyJabDllToSystem (entered at AccessBridge.cpp:172)
+[2016/08/25 11:03:31.403, installer.exe (PID: 10024, TID: 9532), AccessBridge.cpp:117 (`anonymous-namespace'::setAccessBridgeRegistry)]
+	TRACE: Entering `anonymous-namespace'::setAccessBridgeRegistry
+[2016/08/25 11:03:31.405, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs\Oracle_JavaAccessBridge\StartExe]=REG_SZ[C:\Program Files\Java\jre1.8.0_101\bin\jabswitch.exe]
+[2016/08/25 11:03:31.408, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs\Oracle_JavaAccessBridge\ApplicationName]=REG_SZ[Enable Java Access Bridge]
+[2016/08/25 11:03:31.411, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs\Oracle_JavaAccessBridge\Description]=REG_SZ[Java Access Bridge, from Oracle, Inc. providing Assistive Technology access to Java applications]
+[2016/08/25 11:03:31.413, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs\Oracle_JavaAccessBridge\Profile]=REG_SZ[<HCIModel><Accommodation type="mild vision"/><Accommodation type="severe vision"/><Accommodation type="mild cognitive"/><Accommodation type="severe cognitive"/></HCIModel>]
+[2016/08/25 11:03:31.416, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs\Oracle_JavaAccessBridge\SimpleProfile]=REG_SZ[screenreader]
+[2016/08/25 11:03:31.418, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs\Oracle_JavaAccessBridge\StartParams]=REG_SZ[-enable]
+[2016/08/25 11:03:31.420, installer.exe (PID: 10024, TID: 9532), AccessBridge.cpp:0 (`anonymous-namespace'::setAccessBridgeRegistry)]
+	TRACE: Exiting `anonymous-namespace'::setAccessBridgeRegistry (entered at AccessBridge.cpp:117)
+[2016/08/25 11:03:31.424, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:403 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\ProgramData\Oracle\Java\javapath\] directory
+[2016/08/25 11:03:31.425, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:103 (FileUtils::createSymLink)]
+	TRACE: Created [C:\ProgramData\Oracle\Java\javapath\java.exe] symlink for [C:\Program Files\Java\jre1.8.0_101\bin\java.exe] target
+[2016/08/25 11:03:31.443, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:103 (FileUtils::createSymLink)]
+	TRACE: Created [C:\ProgramData\Oracle\Java\javapath\javaw.exe] symlink for [C:\Program Files\Java\jre1.8.0_101\bin\javaw.exe] target
+[2016/08/25 11:03:31.446, installer.exe (PID: 10024, TID: 9532), FileUtils.cpp:103 (FileUtils::createSymLink)]
+	TRACE: Created [C:\ProgramData\Oracle\Java\javapath\javaws.exe] symlink for [C:\Program Files\Java\jre1.8.0_101\bin\javaws.exe] target
+[2016/08/25 11:03:31.449, installer.exe (PID: 10024, TID: 9532), Registry.cpp:410 (Registry::setExpandString)]
+	TRACE: Set [HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment\Path]=REG_EXPAND_SZ[C:\ProgramData\Oracle\Java\javapath;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\]
+[2016/08/25 11:03:31.915, installer.exe (PID: 10024, TID: 9532), RegInstallShare.cpp:95 (`anonymous-namespace'::InstallJUTConfigFile)]
+	TRACE: Entering `anonymous-namespace'::InstallJUTConfigFile
+[2016/08/25 11:03:31.937, installer.exe (PID: 10024, TID: 9532), RegInstallShare.cpp:0 (`anonymous-namespace'::InstallJUTConfigFile)]
+	TRACE: Exiting `anonymous-namespace'::InstallJUTConfigFile (entered at RegInstallShare.cpp:95)
+[2016/08/25 11:03:31.943, installer.exe (PID: 10024, TID: 9532), RegInstallShare.cpp:117 (`anonymous-namespace'::InstallDRSFile)]
+	TRACE: Entering `anonymous-namespace'::InstallDRSFile
+[2016/08/25 11:03:31.949, installer.exe (PID: 10024, TID: 9532), RegInstallShare.cpp:0 (`anonymous-namespace'::InstallDRSFile)]
+	TRACE: Exiting `anonymous-namespace'::InstallDRSFile (entered at RegInstallShare.cpp:117)
+[2016/08/25 11:03:31.954, installer.exe (PID: 10024, TID: 9532), RegInstallShare.cpp:77 (CleanupTempFiles)]
+	INFO: ** Start WINAPI CleanupTempFiles **
+[2016/08/25 11:03:31.961, installer.exe (PID: 10024, TID: 9532), RegInstallShare.cpp:88 (CleanupTempFiles)]
+	INFO: ** End WINAPI CleanupTempFiles **
+[2016/08/25 11:03:31.964, installer.exe (PID: 10024, TID: 9532), RegInstallJRE.cpp:167 (InstallJRE)]
+	TRACE: -- Calling RegisterDeploy().
+[2016/08/25 11:03:31.966, installer.exe (PID: 10024, TID: 9532), DeployLibLoader.cpp:20 (DeployLibLoader::DeployLibLoader)]
+	INFO: DeployLibLoader: javaHome is C:\Program Files\Java\jre1.8.0_101
+[2016/08/25 11:03:31.969, installer.exe (PID: 10024, TID: 9532), DeployLibLoader.cpp:25 (DeployLibLoader::DeployLibLoader)]
+	INFO: msvcrLib path is C:\Program Files\Java\jre1.8.0_101\bin\msvcr100.dll
+[2016/08/25 11:03:31.972, installer.exe (PID: 10024, TID: 9532), DeployLibLoader.cpp:46 (DeployLibLoader::DeployLibLoader)]
+	INFO: DeployLib path is C:\Program Files\Java\jre1.8.0_101\bin\deploy.dll
+[2016/08/25 11:03:36.206, installer.exe (PID: 10024, TID: 9532), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM\Software\JreMetrics\RegDeployStatus]=REG_SZ[0]
+[2016/08/25 11:03:36.210, installer.exe (PID: 10024, TID: 9532), RegInstallJRE.cpp:176 (InstallJRE)]
+	TRACE: RegisterDeploy returned: 0
+[2016/08/25 11:03:36.924, jre.exe (PID: 8300, TID: 6088), MsiUtils.cpp:370 (msi::`anonymous-namespace'::handleMsiStatus)]
+	INFO: MsiInstallProduct(C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jre1.8.0_101_x64\jre1.8.0_10164.msi, NOSTARTMENU="0" INSTALLDIR="C:\Program Files\Java\jre1.8.0_101") succeeded
+[2016/08/25 11:03:36.927, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:550 (JavaEnvironment::fromMsi)]
+	TRACE: Entering JavaEnvironment::fromMsi
+[2016/08/25 11:03:36.936, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:526 (JavaEnvironment::`anonymous-namespace'::fromProductCodeImpl)]
+	TRACE: Entering JavaEnvironment::`anonymous-namespace'::fromProductCodeImpl
+[2016/08/25 11:03:36.940, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:139 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/08/25 11:03:36.951, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:303 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/08/25 11:03:36.955, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:214 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({26A24AE4-039D-4CA4-87B4-2F64180101F0})
+[2016/08/25 11:03:36.960, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:327 (`anonymous-namespace'::detectJreMode)]
+	TRACE: Detect mode of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/08/25 11:03:36.967, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:451 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(1.8.0_101-b13|1.8.0_101-b13|JRE|64bit|C:\Program Files\Java\jre1.8.0_101|{26A24AE4-039D-4CA4-87B4-2F64180101F0}|10)
+[2016/08/25 11:03:36.971, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:0 (JavaEnvironment::`anonymous-namespace'::fromProductCodeImpl)]
+	TRACE: Exiting JavaEnvironment::`anonymous-namespace'::fromProductCodeImpl (entered at JavaEnvironment.cpp:526)
+[2016/08/25 11:03:36.978, jre.exe (PID: 8300, TID: 6088), JavaEnvironment.cpp:0 (JavaEnvironment::fromMsi)]
+	TRACE: Exiting JavaEnvironment::fromMsi (entered at JavaEnvironment.cpp:550)
+[2016/08/25 11:03:37.006, jre.exe (PID: 8300, TID: 6088), FileUtils.cpp:348 (FileUtils::`anonymous-namespace'::createNewFile)]
+	TRACE: Created [C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jre1.8.0_101_x64\jds78935656.tmp] file
+[2016/08/25 11:03:37.018, jre.exe (PID: 8300, TID: 6088), FileUtils.cpp:469 (FileUtils::`anonymous-namespace'::moveFileImpl)]
+	TRACE: Moved [C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jre1.8.0_101_x64\jds78935656.tmp] file to [C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jre1.8.0_101_x64\au.msi]
+[2016/08/25 11:03:37.022, jre.exe (PID: 8300, TID: 6088), AuMsi.cpp:70 (au::InstalledState::detect)]
+	TRACE: No Old AU Version found
+[2016/08/25 11:03:37.026, jre.exe (PID: 8300, TID: 6088), AuMsi.cpp:116 (au::msi::install::doInstall)]
+	TRACE: Auto Update is enabled
+[2016/08/25 11:03:52.577, MsiExec.exe (PID: 9140, TID: 7100), Registry.cpp:379 (Registry::setDword)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\EnableJavaUpdate]=REG_DWORD[1]
+[2016/08/25 11:03:52.578, MsiExec.exe (PID: 9140, TID: 7100), Registry.cpp:379 (Registry::setDword)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\NotifyDownload]=REG_DWORD[1]
+[2016/08/25 11:03:52.578, MsiExec.exe (PID: 9140, TID: 7100), Registry.cpp:379 (Registry::setDword)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\NotifyInstall]=REG_DWORD[0]
+[2016/08/25 11:03:52.606, MsiExec.exe (PID: 9140, TID: 7100), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\Frequency]=REG_SZ[AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK6xDrK+800maM71AyJonpQQAAAACAAAAAAAQZgAAAAEAACAAAADi03iIIzdReVD/gJZ4J49Fb0k7HpnkoQNApFA9WZzFOwAAAAAOgAAAAAIAACAAAAAAsqWgz/WKhgfG25MybmZD3swrph518ioug7UaPusmgxAAAAA1jVjnIY7a3rrr02eDDQknQAAAAF28VutwiZ7bX/Trmc6U72CtlW7s4+G2OyPq3twIHqV2b0WPtwYeFw97jzrZSS8pYonO5SZ/QkitJAOIaLCr6bQ=]
+[2016/08/25 11:03:52.606, MsiExec.exe (PID: 9140, TID: 7100), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\UpdateSchedule]=REG_SZ[AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK6xDrK+800maM71AyJonpQQAAAACAAAAAAAQZgAAAAEAACAAAAC5bsGVqDiMSmc1bpHT5fAP/6me3l3MBNUdop86A/Y9owAAAAAOgAAAAAIAACAAAABS+Vm6g+piuuv9GA+r6wAjBOjeyUWlroL85o3HiNlqcRAAAACmXT+Mwk/ZHI2N3jh7LjpSQAAAAFVgDyNnFDJexlaCfAQeYhXTss+wlUVL7mo7xrXZUsOnnMembAybYgUyzt5lFknkvASydMr3zx3nBkf2upWk3BE=]
+[2016/08/25 11:03:52.606, MsiExec.exe (PID: 9140, TID: 7100), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\UpdateMin]=REG_SZ[AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK6xDrK+800maM71AyJonpQQAAAACAAAAAAAQZgAAAAEAACAAAAAy951iUThMVK56LRJxq6pOA4LP3cSaN2FlO4oGu0CK6QAAAAAOgAAAAAIAACAAAACy88hZ5Xw6fq9roKz0kt1vfOA4OjeCEAuwx/VjSVRNMxAAAAAqHVLcBtOBuDcqfPNerYzVQAAAADhkXOXOiedaOheU45UQissPR3PjMrmWw3bm5kShMJXe4UlpBWwYRftOZuL1VpsgqmSt6BrxfKhoixzP70FAxkU=]
+[2016/08/25 11:03:52.606, MsiExec.exe (PID: 9140, TID: 7100), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\ScheduleId]=REG_SZ[S-1-5]
+[2016/08/25 11:03:52.743, jre.exe (PID: 8300, TID: 6088), MsiUtils.cpp:370 (msi::`anonymous-namespace'::handleMsiStatus)]
+	INFO: MsiInstallProduct(C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jre1.8.0_101_x64\au.msi, ) succeeded
+[2016/08/25 11:03:52.753, jre.exe (PID: 8300, TID: 6088), Registry.cpp:379 (Registry::setDword)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\NotifyDownload]=REG_DWORD[1]
+[2016/08/25 11:03:52.758, jre.exe (PID: 8300, TID: 6088), Registry.cpp:379 (Registry::setDword)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\NotifyInstall]=REG_DWORD[0]
+[2016/08/25 11:03:52.762, jre.exe (PID: 8300, TID: 6088), AllUtils.cpp:125 (logit)]
+	INFO: Pings enabled
+[2016/08/25 11:03:52.766, jre.exe (PID: 8300, TID: 6088), UpdateConf.cpp:549 (SendHeadRequest)]
+	ERROR: No pings: unallowed url: 
+[2016/08/25 11:03:52.771, jre.exe (PID: 8300, TID: 6088), UpdateConf.cpp:401 (SetJavaSoftKey)]
+	ERROR: Exception with message 'Registry.cpp(436) at Registry::deleteValue(): delete value (HKLM\SOFTWARE\JavaSoft\InstallStatus) error. System error [2](system error 2 (The system cannot find the file specified))' caught
+[2016/08/25 11:03:52.776, jre.exe (PID: 8300, TID: 6088), FileUtils.cpp:529 (FileUtils::deleteFile)]
+	TRACE: Deleted [C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jre1.8.0_101_x64\au.msi] file
+[2016/08/25 11:03:52.785, jre.exe (PID: 8300, TID: 6088), FileUtils.cpp:529 (FileUtils::deleteFile)]
+	TRACE: Deleted [C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jre1.8.0_101_x64\jre1.8.0_10164.msi] file
+[2016/08/25 11:03:52.789, jre.exe (PID: 8300, TID: 6088), FileUtils.cpp:547 (FileUtils::deleteDirectory)]
+	TRACE: deleteDirectory(C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jre1.8.0_101_x64)
+[2016/08/25 11:03:52.791, jre.exe (PID: 8300, TID: 6088), FileUtils.cpp:550 (FileUtils::deleteDirectory)]
+	TRACE: Deleted [C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jre1.8.0_101_x64] directory
+[2016/08/25 11:03:52.794, jre.exe (PID: 8300, TID: 6088), FileUtils.cpp:547 (FileUtils::deleteDirectory)]
+	TRACE: deleteDirectory(C:\Users\Codetribe\AppData\LocalLow\Oracle\Java)
+[2016/08/25 11:03:52.797, jre.exe (PID: 8300, TID: 6088), FileUtils.cpp:547 (FileUtils::deleteDirectory)]
+	TRACE: deleteDirectory(C:\Users\Codetribe\AppData\LocalLow\Oracle)
+[2016/08/25 11:03:52.799, jre.exe (PID: 8300, TID: 6088), wrapper.cpp:518 (WinMain)]
+	INFO: Wrapper exit code: 0
+[2016/08/25 11:05:50.161, MsiExec.exe (PID: 8692, TID: 684), FileUtils.cpp:348 (FileUtils::`anonymous-namespace'::createNewFile)]
+	TRACE: Created [C:\Users\CODETR~1\AppData\Local\Temp\jds79068812.html] file
+[2016/08/25 11:05:50.163, MsiExec.exe (PID: 8692, TID: 684), FileUtils.cpp:529 (FileUtils::deleteFile)]
+	TRACE: Deleted [C:\Users\CODETR~1\AppData\Local\Temp\jds79068812.html] file
+[2016/08/25 11:05:50.164, MsiExec.exe (PID: 8692, TID: 684), Executor.cpp:366 (Executor::ExecProcessAsDesktopUser)]
+	TRACE: Entering Executor::ExecProcessAsDesktopUser
+[2016/08/25 11:05:50.185, MsiExec.exe (PID: 8692, TID: 684), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\WINDOWS\explorer.exe" C:\ProgramData\Oracle\tmpinstall\javatmp.lnk
+[2016/08/25 11:05:50.481, MsiExec.exe (PID: 8692, TID: 684), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2016/08/25 11:05:50.481, MsiExec.exe (PID: 8692, TID: 684), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 1
+[2016/08/25 11:05:50.482, MsiExec.exe (PID: 8692, TID: 684), Executor.cpp:198 (Executor::finishExecution)]
+	ERROR: Executor.finishExecution(): Process execution  failed with system error 183 (Cannot create a file when that file already exists)
+[2016/08/25 11:05:50.482, MsiExec.exe (PID: 8692, TID: 684), Executor.cpp:0 (Executor::ExecProcessAsDesktopUser)]
+	TRACE: Exiting Executor::ExecProcessAsDesktopUser (entered at Executor.cpp:366)
+[2016/08/25 11:05:54.564, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2016/08/25 11:05:54.567, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), JavaEnvironment.cpp:472 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2016/08/25 11:05:54.570, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_101; arch=64; productCode={26A24AE4-039D-4CA4-87B4-2F64180101F0}; type=0
+[2016/08/25 11:05:54.573, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), JavaEnvironment.cpp:139 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/08/25 11:05:54.578, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), JavaEnvironment.cpp:303 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/08/25 11:05:54.581, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), JavaEnvironment.cpp:214 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({26A24AE4-039D-4CA4-87B4-2F64180101F0})
+[2016/08/25 11:05:54.593, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), JavaEnvironment.cpp:327 (`anonymous-namespace'::detectJreMode)]
+	TRACE: Detect mode of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/08/25 11:05:54.596, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), JavaEnvironment.cpp:451 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(1.8.0_101-b13|1.8.0_101-b13|JRE|64bit|C:\Program Files\Java\jre1.8.0_101|{26A24AE4-039D-4CA4-87B4-2F64180101F0}|10)
+[2016/08/25 11:05:54.599, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=64; productCode={64A3A4F4-B792-11D6-A78A-00B0D0180101}; type=1
+[2016/08/25 11:05:54.608, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:472)
+[2016/08/25 11:05:54.612, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), FileUtils.cpp:348 (FileUtils::`anonymous-namespace'::createNewFile)]
+	TRACE: Created [C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jdk1.8.0_101_x64\jds79073250.tmp] file
+[2016/08/25 11:05:54.619, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), FileUtils.cpp:469 (FileUtils::`anonymous-namespace'::moveFileImpl)]
+	TRACE: Moved [C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jdk1.8.0_101_x64\jds79073250.tmp] file to [C:\Users\Codetribe\AppData\LocalLow\Oracle\Java\jdk1.8.0_101_x64\au.msi]
+[2016/08/25 11:05:54.622, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AuMsi.cpp:78 (au::InstalledState::detect)]
+	TRACE: Found AU version in MSI: <2.8.101.13>
+[2016/08/25 11:05:54.625, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), AuMsi.cpp:132 (au::msi::install::operator ())]
+	INFO: AU is not upgradeable - Installed version (2.8.101.13) >= the bundled version (2.8.101.13).
+[2016/08/25 11:05:54.628, jdk-8u101-windows-x64.exe (PID: 8600, TID: 2756), wrapper.cpp:329 (WinMain)]
+	INFO: Wrapper exit code: 0
+[2016/08/25 11:05:54.679, jdk-8u101-windows-x64.exe (PID: 5900, TID: 6560), FileUtils.cpp:529 (FileUtils::deleteFile)]
+	TRACE: Deleted [C:\Users\CODETR~1\AppData\Local\Temp\jds78798625.tmp\jdk-8u101-windows-x64.exe] file
+[2016/08/25 11:05:54.683, jdk-8u101-windows-x64.exe (PID: 5900, TID: 6560), FileUtils.cpp:547 (FileUtils::deleteDirectory)]
+	TRACE: deleteDirectory(C:\Users\CODETR~1\AppData\Local\Temp\jds78798625.tmp)
+[2016/08/25 11:05:54.686, jdk-8u101-windows-x64.exe (PID: 5900, TID: 6560), FileUtils.cpp:550 (FileUtils::deleteDirectory)]
+	TRACE: Deleted [C:\Users\CODETR~1\AppData\Local\Temp\jds78798625.tmp] directory
+[2016/08/26 09:02:30.204, jusched.exe (PID: 7724, TID: 1132), AllUtils.cpp:125 (logit)]
+	INFO: **************** Running jusched ****************
+
+[2016/08/26 09:07:30.342, jusched.exe (PID: 7724, TID: 1132), AllUtils.cpp:125 (logit)]
+	INFO: ResetDefaultUpdateSchedule is calling SetDefaultUpdateSchedule becuase ID in reg did not match.
+[2016/08/26 09:07:30.374, jusched.exe (PID: 7724, TID: 1132), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\Frequency]=REG_SZ[AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK6xDrK+800maM71AyJonpQQAAAACAAAAAAAQZgAAAAEAACAAAAA+2jEpYD4/H8bjUscS6fqfhO5A4u5RxZLXTgTAyzA3TgAAAAAOgAAAAAIAACAAAACgcQfboQOlWCRHLeCRpBMTolVLXO9nP6eJLyKeF0FbKxAAAADOHP8uPFoQTghj86hRKYm8QAAAAKDBxeoedux2ne7bXsAKPywG4awaHPB7Na7tzmip0CBzTJ3gtRow3076GbkGM2o/4Vh89gq0dcMahZAAseHgsAg=]
+[2016/08/26 09:07:30.389, jusched.exe (PID: 7724, TID: 1132), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\UpdateSchedule]=REG_SZ[AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK6xDrK+800maM71AyJonpQQAAAACAAAAAAAQZgAAAAEAACAAAAB2GzV0lngcEnFPEAKfOeZ3KI9TqEHKWYyjBdo6PJdeUAAAAAAOgAAAAAIAACAAAAAHgH9pCp3Fo6EViEnTOVMUhEpDgaVbnarUdPjdsIzmMxAAAAC9JB6cmy7p+CWEKtl/CPOcQAAAALVcaf9VGUlPx+1cT6JXEepDtMpGedOoUnn3uTRJQEsey2m6PFRhcFYURCi2FbqgI6njo0ipL5nVgjA+Bw/y0Io=]
+[2016/08/26 09:07:30.389, jusched.exe (PID: 7724, TID: 1132), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\UpdateMin]=REG_SZ[AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK6xDrK+800maM71AyJonpQQAAAACAAAAAAAQZgAAAAEAACAAAAA5IpP38xefh6fifu7ulCtaj/dsQPgbPsOW5TChzUDIOgAAAAAOgAAAAAIAACAAAAAswn0CM4neZKazbXD0VephXT1I+ISsLd8lrXqpGQzzrBAAAAB0DEqvoOJCqc61bcXyuFZpQAAAAOKQDpMm0te+1iR2veAvwiyv7bnWeTh7b0fi1kJDMqHCiBtQ4+zUiHVnbRYAtOJsAijBjigJb7y25JMY1S6ZKfM=]
+[2016/08/26 09:07:30.405, jusched.exe (PID: 7724, TID: 1132), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\ScheduleId]=REG_SZ[S-1-5-21-4029889442-1793568845-213461627]
+[2016/08/26 09:07:30.405, jusched.exe (PID: 7724, TID: 1132), AllUtils.cpp:125 (logit)]
+	INFO: Time for a Java Update check.
+
+[2016/08/26 09:07:30.405, jusched.exe (PID: 7724, TID: 1132), JavaEnvironment.cpp:472 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2016/08/26 09:07:30.436, jusched.exe (PID: 7724, TID: 1132), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_101; arch=64; productCode={26A24AE4-039D-4CA4-87B4-2F64180101F0}; type=0
+[2016/08/26 09:07:30.436, jusched.exe (PID: 7724, TID: 1132), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=64; productCode={64A3A4F4-B792-11D6-A78A-00B0D0180101}; type=1
+[2016/08/26 09:07:30.452, jusched.exe (PID: 7724, TID: 1132), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:472)
+[2016/08/26 09:07:30.452, jusched.exe (PID: 7724, TID: 1132), JavaEnvironment.cpp:472 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2016/08/26 09:07:30.452, jusched.exe (PID: 7724, TID: 1132), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_101; arch=64; productCode={26A24AE4-039D-4CA4-87B4-2F64180101F0}; type=0
+[2016/08/26 09:07:30.452, jusched.exe (PID: 7724, TID: 1132), JavaEnvironment.cpp:139 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/08/26 09:07:30.483, jusched.exe (PID: 7724, TID: 1132), JavaEnvironment.cpp:303 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/08/26 09:07:30.483, jusched.exe (PID: 7724, TID: 1132), JavaEnvironment.cpp:214 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({26A24AE4-039D-4CA4-87B4-2F64180101F0})
+[2016/08/26 09:07:30.577, jusched.exe (PID: 7724, TID: 1132), JavaEnvironment.cpp:327 (`anonymous-namespace'::detectJreMode)]
+	TRACE: Detect mode of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/08/26 09:07:30.592, jusched.exe (PID: 7724, TID: 1132), JavaEnvironment.cpp:451 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(1.8.0_101-b13|1.8.0_101-b13|JRE|64bit|C:\Program Files\Java\jre1.8.0_101|{26A24AE4-039D-4CA4-87B4-2F64180101F0}|10)
+[2016/08/26 09:07:30.608, jusched.exe (PID: 7724, TID: 1132), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=64; productCode={64A3A4F4-B792-11D6-A78A-00B0D0180101}; type=1
+[2016/08/26 09:07:30.639, jusched.exe (PID: 7724, TID: 1132), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:472)
+[2016/08/26 09:07:30.639, jusched.exe (PID: 7724, TID: 1132), UpdateCommon.cpp:713 (GetVersionXmlFileURL)]
+	INFO: Versions to check: 
+  - 1.8.0_101-b13
+
+[2016/08/26 09:07:30.639, jusched.exe (PID: 7724, TID: 1132), NetUtils.cpp:93 (HttpConnection::connect)]
+	TRACE: HttpConnection::connect(url=https://javadl-esd-secure.oracle.com/update/1.8.0/map-1.8.0.xml)
+[2016/08/26 09:07:55.632, jusched.exe (PID: 7724, TID: 1132), NetUtils.cpp:222 (HttpConnection::connect)]
+	TRACE: HttpConnection::connect succeeded, size: 3757 bytes
+[2016/08/26 09:07:55.647, jusched.exe (PID: 7724, TID: 1132), Locales.cpp:318 (Locale::preferredLanguages)]
+	INFO: PreferredUILanguages: Vista+
+[2016/08/26 09:07:55.647, jusched.exe (PID: 7724, TID: 1132), AllUtils.cpp:125 (logit)]
+	INFO: No cntry-lookup tag in map.xml
+[2016/08/26 09:07:55.663, jusched.exe (PID: 7724, TID: 1132), AllUtils.cpp:125 (logit)]
+	INFO: OVERRIDE SYSTEM VALUE==0:OS:10.0,Arch:amd64,Version:1.8.0_101-b13,Locale:en,Cntry:YY
+
+[2016/08/26 09:07:55.663, jusched.exe (PID: 7724, TID: 1132), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\LastUpdateBeginTime]=REG_SZ[Fri, 26 Aug 2016 07:07:55 GMT]
+[2016/08/26 09:07:55.663, jusched.exe (PID: 7724, TID: 1132), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\LastUpdateFinishTime]=REG_SZ[Fri, 26 Aug 2016 07:07:55 GMT]
+[2016/08/26 09:07:55.663, jusched.exe (PID: 7724, TID: 1132), AllUtils.cpp:125 (logit)]
+	INFO: No Updates available
+
+[2016/08/26 09:07:55.679, jusched.exe (PID: 7724, TID: 1132), AllUtils.cpp:125 (logit)]
+	INFO: JavaUpdate : LastFinishTime is after LastScheduledTime, sleeping until next schedule Time: Mon Aug 29 07:28:00 2016
+
+[2016/08/26 09:07:55.679, jusched.exe (PID: 7724, TID: 1132), AllUtils.cpp:125 (logit)]
+	INFO: JavaUpdate NextSchedTime=Mon Aug 29 07:28:00 2016
+JavaUpdatelastSchedTime=Mon Aug 22 07:28:00 2016
+JavaUpdatenextSchedTime=Mon Aug 29 07:28:00 2016
+JavaUpdatesleeptime (sec=253205, hours=70, days=2.93)
+actual sleep time=253205000 msecs (70:20:05) for JavaUpdate
+
+[2016/08/29 07:51:52.903, jusched.exe (PID: 3044, TID: 8588), AllUtils.cpp:125 (logit)]
+	INFO: **************** Running jusched ****************
+
+[2016/08/29 07:56:53.160, jusched.exe (PID: 3044, TID: 8588), AllUtils.cpp:125 (logit)]
+	INFO: Time for a Java Update check.
+
+[2016/08/29 07:56:53.165, jusched.exe (PID: 3044, TID: 8588), JavaEnvironment.cpp:472 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2016/08/29 07:56:53.207, jusched.exe (PID: 3044, TID: 8588), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_101; arch=64; productCode={26A24AE4-039D-4CA4-87B4-2F64180101F0}; type=0
+[2016/08/29 07:56:53.210, jusched.exe (PID: 3044, TID: 8588), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=64; productCode={64A3A4F4-B792-11D6-A78A-00B0D0180101}; type=1
+[2016/08/29 07:56:53.240, jusched.exe (PID: 3044, TID: 8588), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:472)
+[2016/08/29 07:56:53.244, jusched.exe (PID: 3044, TID: 8588), JavaEnvironment.cpp:472 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2016/08/29 07:56:53.247, jusched.exe (PID: 3044, TID: 8588), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_101; arch=64; productCode={26A24AE4-039D-4CA4-87B4-2F64180101F0}; type=0
+[2016/08/29 07:56:53.251, jusched.exe (PID: 3044, TID: 8588), JavaEnvironment.cpp:139 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/08/29 07:56:53.314, jusched.exe (PID: 3044, TID: 8588), JavaEnvironment.cpp:303 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/08/29 07:56:53.318, jusched.exe (PID: 3044, TID: 8588), JavaEnvironment.cpp:214 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({26A24AE4-039D-4CA4-87B4-2F64180101F0})
+[2016/08/29 07:56:53.402, jusched.exe (PID: 3044, TID: 8588), JavaEnvironment.cpp:327 (`anonymous-namespace'::detectJreMode)]
+	TRACE: Detect mode of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/08/29 07:56:53.405, jusched.exe (PID: 3044, TID: 8588), JavaEnvironment.cpp:451 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(1.8.0_101-b13|1.8.0_101-b13|JRE|64bit|C:\Program Files\Java\jre1.8.0_101|{26A24AE4-039D-4CA4-87B4-2F64180101F0}|10)
+[2016/08/29 07:56:53.409, jusched.exe (PID: 3044, TID: 8588), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=64; productCode={64A3A4F4-B792-11D6-A78A-00B0D0180101}; type=1
+[2016/08/29 07:56:53.420, jusched.exe (PID: 3044, TID: 8588), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:472)
+[2016/08/29 07:56:53.424, jusched.exe (PID: 3044, TID: 8588), UpdateCommon.cpp:713 (GetVersionXmlFileURL)]
+	INFO: Versions to check: 
+  - 1.8.0_101-b13
+
+[2016/08/29 07:56:53.427, jusched.exe (PID: 3044, TID: 8588), NetUtils.cpp:93 (HttpConnection::connect)]
+	TRACE: HttpConnection::connect(url=https://javadl-esd-secure.oracle.com/update/1.8.0/map-1.8.0.xml)
+[2016/08/29 07:56:55.946, jusched.exe (PID: 3044, TID: 8588), NetUtils.cpp:222 (HttpConnection::connect)]
+	TRACE: HttpConnection::connect succeeded, size: 3757 bytes
+[2016/08/29 07:56:55.949, jusched.exe (PID: 3044, TID: 8588), Locales.cpp:318 (Locale::preferredLanguages)]
+	INFO: PreferredUILanguages: Vista+
+[2016/08/29 07:56:55.952, jusched.exe (PID: 3044, TID: 8588), AllUtils.cpp:125 (logit)]
+	INFO: No cntry-lookup tag in map.xml
+[2016/08/29 07:56:55.955, jusched.exe (PID: 3044, TID: 8588), AllUtils.cpp:125 (logit)]
+	INFO: OVERRIDE SYSTEM VALUE==0:OS:10.0,Arch:amd64,Version:1.8.0_101-b13,Locale:en,Cntry:YY
+
+[2016/08/29 07:56:55.958, jusched.exe (PID: 3044, TID: 8588), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\LastUpdateBeginTime]=REG_SZ[Mon, 29 Aug 2016 05:56:55 GMT]
+[2016/08/29 07:56:55.961, jusched.exe (PID: 3044, TID: 8588), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\LastUpdateFinishTime]=REG_SZ[Mon, 29 Aug 2016 05:56:55 GMT]
+[2016/08/29 07:56:55.963, jusched.exe (PID: 3044, TID: 8588), AllUtils.cpp:125 (logit)]
+	INFO: No Updates available
+
+[2016/08/29 07:56:55.966, jusched.exe (PID: 3044, TID: 8588), AllUtils.cpp:125 (logit)]
+	INFO: JavaUpdate  [Critical] :  LastFinishTime is after LastScheduledTime, sleeping until next schedule Time: Fri Sep 02 07:28:00 2016
+
+[2016/08/29 07:56:55.969, jusched.exe (PID: 3044, TID: 8588), AllUtils.cpp:125 (logit)]
+	INFO: JavaUpdate [Critical] NextSchedTime=Fri Sep 02 07:28:00 2016
+JavaUpdate [Critical]lastSchedTime=Fri Aug 26 07:28:00 2016
+JavaUpdate [Critical]nextSchedTime=Fri Sep 02 07:28:00 2016
+JavaUpdate [Critical]sleeptime (sec=343865, hours=95, days=3.98)
+actual sleep time=343865000 msecs (95:31:05) for JavaUpdate [Critical]
+
+[2016/08/31 08:19:25.993, jusched.exe (PID: 9012, TID: 7516), AllUtils.cpp:125 (logit)]
+	INFO: **************** Running jusched ****************
+
+[2016/08/31 08:24:26.146, jusched.exe (PID: 9012, TID: 7516), AllUtils.cpp:125 (logit)]
+	INFO: JavaUpdate  [Critical] :  LastFinishTime is after LastScheduledTime, sleeping until next schedule Time: Fri Sep 02 07:28:00 2016
+
+[2016/08/31 08:24:26.162, jusched.exe (PID: 9012, TID: 7516), AllUtils.cpp:125 (logit)]
+	INFO: JavaUpdate [Critical] NextSchedTime=Fri Sep 02 07:28:00 2016
+JavaUpdate [Critical]lastSchedTime=Fri Aug 26 07:28:00 2016
+JavaUpdate [Critical]nextSchedTime=Fri Sep 02 07:28:00 2016
+JavaUpdate [Critical]sleeptime (sec=169414, hours=47, days=1.96)
+actual sleep time=169414000 msecs (47:03:34) for JavaUpdate [Critical]
+
+[2016/09/02 08:58:25.462, jusched.exe (PID: 1900, TID: 8784), AllUtils.cpp:125 (logit)]
+	INFO: **************** Running jusched ****************
+
+[2016/09/02 09:03:25.619, jusched.exe (PID: 1900, TID: 8784), AllUtils.cpp:125 (logit)]
+	INFO: Time for a Java Update [Critical] check.
+
+[2016/09/02 09:03:25.635, jusched.exe (PID: 1900, TID: 8784), JavaEnvironment.cpp:472 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2016/09/02 09:03:25.681, jusched.exe (PID: 1900, TID: 8784), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_101; arch=64; productCode={26A24AE4-039D-4CA4-87B4-2F64180101F0}; type=0
+[2016/09/02 09:03:25.681, jusched.exe (PID: 1900, TID: 8784), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=64; productCode={64A3A4F4-B792-11D6-A78A-00B0D0180101}; type=1
+[2016/09/02 09:03:25.713, jusched.exe (PID: 1900, TID: 8784), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:472)
+[2016/09/02 09:03:25.713, jusched.exe (PID: 1900, TID: 8784), JavaEnvironment.cpp:472 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2016/09/02 09:03:25.713, jusched.exe (PID: 1900, TID: 8784), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_101; arch=64; productCode={26A24AE4-039D-4CA4-87B4-2F64180101F0}; type=0
+[2016/09/02 09:03:25.713, jusched.exe (PID: 1900, TID: 8784), JavaEnvironment.cpp:139 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/09/02 09:03:25.775, jusched.exe (PID: 1900, TID: 8784), JavaEnvironment.cpp:303 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/09/02 09:03:25.775, jusched.exe (PID: 1900, TID: 8784), JavaEnvironment.cpp:214 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({26A24AE4-039D-4CA4-87B4-2F64180101F0})
+[2016/09/02 09:03:25.869, jusched.exe (PID: 1900, TID: 8784), JavaEnvironment.cpp:327 (`anonymous-namespace'::detectJreMode)]
+	TRACE: Detect mode of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/09/02 09:03:25.885, jusched.exe (PID: 1900, TID: 8784), JavaEnvironment.cpp:451 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(1.8.0_101-b13|1.8.0_101-b13|JRE|64bit|C:\Program Files\Java\jre1.8.0_101|{26A24AE4-039D-4CA4-87B4-2F64180101F0}|10)
+[2016/09/02 09:03:25.885, jusched.exe (PID: 1900, TID: 8784), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=64; productCode={64A3A4F4-B792-11D6-A78A-00B0D0180101}; type=1
+[2016/09/02 09:03:25.900, jusched.exe (PID: 1900, TID: 8784), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:472)
+[2016/09/02 09:03:25.900, jusched.exe (PID: 1900, TID: 8784), UpdateCommon.cpp:713 (GetVersionXmlFileURL)]
+	INFO: Versions to check: 
+  - 1.8.0_101-b13
+
+[2016/09/02 09:03:25.900, jusched.exe (PID: 1900, TID: 8784), NetUtils.cpp:93 (HttpConnection::connect)]
+	TRACE: HttpConnection::connect(url=https://javadl-esd-secure.oracle.com/update/1.8.0/map-1.8.0.xml)
+[2016/09/02 09:03:25.963, jusched.exe (PID: 1900, TID: 8784), UpdateCommon.cpp:244 (GetXmlFile)]
+	ERROR: Exception with message 'NetUtils.cpp(176) at HttpConnection::connect(): HttpSendRequest failed: system error 12007 (The server name or address could not be resolved)' caught
+[2016/09/02 09:03:25.978, jusched.exe (PID: 1900, TID: 8784), AllUtils.cpp:125 (logit)]
+	INFO: JavaUpdate  [Critical] :  Current time is <4 days past last scheduled time, Setting sleeptime to next 1hr window (7 hour delay): Fri Sep 02 14:28:00 2016
+
+[2016/09/02 09:03:25.978, jusched.exe (PID: 1900, TID: 8784), AllUtils.cpp:125 (logit)]
+	INFO: JavaUpdate [Critical] NextSchedTime=Fri Sep 09 07:28:00 2016
+JavaUpdate [Critical]lastSchedTime=Fri Sep 02 07:28:00 2016
+JavaUpdate [Critical]nextSchedTime=Fri Sep 09 07:28:00 2016
+JavaUpdate [Critical]sleeptime (sec=19475, hours=5, days=0.23)
+actual sleep time=19475000 msecs (5:24:35) for JavaUpdate [Critical]
+
+[2016/09/02 09:40:07.725, jusched.exe (PID: 4932, TID: 4936), AllUtils.cpp:125 (logit)]
+	INFO: **************** Running jusched ****************
+
+[2016/09/02 09:45:07.854, jusched.exe (PID: 4932, TID: 4936), AllUtils.cpp:125 (logit)]
+	INFO: Time for a Java Update [Critical] check.
+
+[2016/09/02 09:45:07.857, jusched.exe (PID: 4932, TID: 4936), JavaEnvironment.cpp:472 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2016/09/02 09:45:07.896, jusched.exe (PID: 4932, TID: 4936), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_101; arch=64; productCode={26A24AE4-039D-4CA4-87B4-2F64180101F0}; type=0
+[2016/09/02 09:45:07.899, jusched.exe (PID: 4932, TID: 4936), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=64; productCode={64A3A4F4-B792-11D6-A78A-00B0D0180101}; type=1
+[2016/09/02 09:45:07.912, jusched.exe (PID: 4932, TID: 4936), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:472)
+[2016/09/02 09:45:07.915, jusched.exe (PID: 4932, TID: 4936), JavaEnvironment.cpp:472 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2016/09/02 09:45:07.918, jusched.exe (PID: 4932, TID: 4936), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_101; arch=64; productCode={26A24AE4-039D-4CA4-87B4-2F64180101F0}; type=0
+[2016/09/02 09:45:07.921, jusched.exe (PID: 4932, TID: 4936), JavaEnvironment.cpp:139 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/09/02 09:45:08.012, jusched.exe (PID: 4932, TID: 4936), JavaEnvironment.cpp:303 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/09/02 09:45:08.017, jusched.exe (PID: 4932, TID: 4936), JavaEnvironment.cpp:214 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({26A24AE4-039D-4CA4-87B4-2F64180101F0})
+[2016/09/02 09:45:08.095, jusched.exe (PID: 4932, TID: 4936), JavaEnvironment.cpp:327 (`anonymous-namespace'::detectJreMode)]
+	TRACE: Detect mode of {26A24AE4-039D-4CA4-87B4-2F64180101F0} Java installation
+[2016/09/02 09:45:08.098, jusched.exe (PID: 4932, TID: 4936), JavaEnvironment.cpp:451 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(1.8.0_101-b13|1.8.0_101-b13|JRE|64bit|C:\Program Files\Java\jre1.8.0_101|{26A24AE4-039D-4CA4-87B4-2F64180101F0}|10)
+[2016/09/02 09:45:08.103, jusched.exe (PID: 4932, TID: 4936), JavaEnvironment.cpp:489 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=64; productCode={64A3A4F4-B792-11D6-A78A-00B0D0180101}; type=1
+[2016/09/02 09:45:08.114, jusched.exe (PID: 4932, TID: 4936), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:472)
+[2016/09/02 09:45:08.116, jusched.exe (PID: 4932, TID: 4936), UpdateCommon.cpp:713 (GetVersionXmlFileURL)]
+	INFO: Versions to check: 
+  - 1.8.0_101-b13
+
+[2016/09/02 09:45:08.121, jusched.exe (PID: 4932, TID: 4936), NetUtils.cpp:93 (HttpConnection::connect)]
+	TRACE: HttpConnection::connect(url=https://javadl-esd-secure.oracle.com/update/1.8.0/map-1.8.0.xml)
+[2016/09/02 09:45:35.612, jusched.exe (PID: 4932, TID: 4936), NetUtils.cpp:222 (HttpConnection::connect)]
+	TRACE: HttpConnection::connect succeeded, size: 3757 bytes
+[2016/09/02 09:45:35.616, jusched.exe (PID: 4932, TID: 4936), Locales.cpp:318 (Locale::preferredLanguages)]
+	INFO: PreferredUILanguages: Vista+
+[2016/09/02 09:45:35.619, jusched.exe (PID: 4932, TID: 4936), AllUtils.cpp:125 (logit)]
+	INFO: No cntry-lookup tag in map.xml
+[2016/09/02 09:45:35.622, jusched.exe (PID: 4932, TID: 4936), AllUtils.cpp:125 (logit)]
+	INFO: OVERRIDE SYSTEM VALUE==0:OS:10.0,Arch:amd64,Version:1.8.0_101-b13,Locale:en,Cntry:YY
+
+[2016/09/02 09:45:35.625, jusched.exe (PID: 4932, TID: 4936), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\LastUpdateBeginTime]=REG_SZ[Fri, 02 Sep 2016 07:45:35 GMT]
+[2016/09/02 09:45:35.629, jusched.exe (PID: 4932, TID: 4936), Registry.cpp:394 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\LastUpdateFinishTime]=REG_SZ[Fri, 02 Sep 2016 07:45:35 GMT]
+[2016/09/02 09:45:35.631, jusched.exe (PID: 4932, TID: 4936), AllUtils.cpp:125 (logit)]
+	INFO: No Updates available
+
+[2016/09/02 09:45:35.634, jusched.exe (PID: 4932, TID: 4936), AllUtils.cpp:125 (logit)]
+	INFO: JavaUpdate : LastFinishTime is after LastScheduledTime, sleeping until next schedule Time: Mon Sep 05 07:28:00 2016
+
+[2016/09/02 09:45:35.637, jusched.exe (PID: 4932, TID: 4936), AllUtils.cpp:125 (logit)]
+	INFO: JavaUpdate NextSchedTime=Mon Sep 05 07:28:00 2016
+JavaUpdatelastSchedTime=Mon Aug 29 07:28:00 2016
+JavaUpdatenextSchedTime=Mon Sep 05 07:28:00 2016
+JavaUpdatesleeptime (sec=250945, hours=69, days=2.90)
+actual sleep time=250945000 msecs (69:42:25) for JavaUpdate
+
