@@ -48,8 +48,11 @@ public class MainActivity extends ActionBarActivity {
         intent.setData(Uri.parse("mailto:"));
         intent.putExtra(Intent.EXTRA_SUBJECT, "Just Java Order For " + getCustomerName());
         intent.putExtra(Intent.EXTRA_TEXT, orderSummary);
+        //intent
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
+
+
         }
 
     }
