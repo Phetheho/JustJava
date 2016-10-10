@@ -1,66 +1,119 @@
 <application>
   <component name="StatisticsApplicationUsages">
     <group name="Git">
-      <project id="BirthDayCard" values="config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED" collectionTime="1472630549144" />
-      <project id="My Application1.2" values="config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.force.push.enabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled" collectionTime="1472459558035" />
-      <project id="MyApplication" values="config.ssh.enabled,config.force.push.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1472641234514" />
-      <project id="My Application" values="config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT" collectionTime="1472463103089" />
-      <project id="JustJava" values="config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.force.push.enabled,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.push.autoupdate.disabled,config.ssh.enabled,config.push.update.all.roots.enabled" collectionTime="1473160830396" />
-      <project id="Just Java" values="config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.warn.about.crlf.enabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled" collectionTime="1472820115589" />
-      <project id="BirthdayEg1" values="config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.warn.about.crlf.enabled,config.save.policy.STASH,config.ssh.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1472458617920" />
+      <project id="Court Counter" values="config.save.policy.STASH,config.warn.about.crlf.enabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.force.push.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled" collectionTime="1475231418369" />
+      <project id="Fragments Example" values="config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled" collectionTime="1473847550053" />
+      <project id="MyApplication" values="config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.warn.about.crlf.enabled,config.force.push.enabled" collectionTime="1472641234514" />
+      <project id="My Application" values="config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.save.policy.STASH" collectionTime="1472463103089" />
+      <project id="K P V Music Player" values="config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.save.policy.STASH,config.force.push.enabled,config.ssh.enabled,config.push.update.all.roots.enabled" collectionTime="1473412301043" />
+      <project id="My Application1.2" values="config.ssh.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.push.autoupdate.disabled" collectionTime="1472459558035" />
+      <project id="P V K Music Player" values="config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.force.push.enabled,config.ssh.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.warn.about.detached.enabled" collectionTime="1473341255573" />
+      <project id="Just Java" values="config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.force.push.enabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled" collectionTime="1472820115589" />
+      <project id="JustJava" values="config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,data.remote.branches.count.1,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.push.update.all.roots.enabled,data.local.branches.count.1,config.force.push.enabled,data.remotes.in.project.1,config.warn.about.crlf.enabled,config.ssh.enabled" collectionTime="1475581400274" />
+      <project id="BirthdayEg1" values="config.warn.about.crlf.enabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled" collectionTime="1472458617920" />
+      <project id="AndroidApp" values="config.force.push.enabled,config.save.policy.STASH,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.ssh.enabled" collectionTime="1473772173355" />
+      <project id="KPVMusicPlayer" values="config.ssh.enabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1473321287098" />
+      <project id="Body Mass Index" values="config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.ssh.enabled,config.save.policy.STASH,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled" collectionTime="1475658472536" />
+      <project id="My Quiz App" values="config.warn.about.crlf.enabled,config.force.push.enabled,data.remotes.in.project.1,data.remote.branches.count.1,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.1,data.local.branches.count.1,config.save.policy.STASH,data.local.branches.count.1,data.remote.branches.count.1,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled" collectionTime="1476088653737" />
+      <project id="BirthDayCard" values="config.warn.about.crlf.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled" collectionTime="1472630549144" />
     </group>
-    <group name="language-level">
-      <project id="BirthDayCard" values="JDK_1_8,JDK_1_7" collectionTime="1472630549143" />
-      <project id="My Application1.2" values="JDK_1_7" collectionTime="1472459558024" />
-      <project id="MyApplication" values="JDK_1_7,JDK_1_8" collectionTime="1472641234513" />
-      <project id="My Application" values="JDK_1_8,JDK_1_7" collectionTime="1472463103088" />
-      <project id="JustJava" values="JDK_1_7" collectionTime="1473160830386" />
-      <project id="Just Java" values="JDK_1_7" collectionTime="1472820115588" />
-      <project id="BirthdayEg1" values="JDK_1_7" collectionTime="1472458617920" />
+    <group name="vcs">
+      <project id="JustJava" values="Git" collectionTime="1475581399958" />
+      <project id="My Quiz App" values="Git" collectionTime="1476088653475" />
     </group>
     <group name="frameworks">
-      <project id="BirthDayCard" values="android,java-gradle,android-gradle" collectionTime="1472630548949" />
-      <project id="My Application1.2" values="android-gradle,java-gradle,android" collectionTime="1472459557961" />
+      <project id="Court Counter" values="android,android-gradle,java-gradle" collectionTime="1475231418304" />
+      <project id="Fragments Example" values="android-gradle,java-gradle,android" collectionTime="1473847549966" />
       <project id="MyApplication" values="android,java-gradle,android-gradle" collectionTime="1472641234467" />
-      <project id="My Application" values="android,android-gradle,java-gradle" collectionTime="1472463103033" />
-      <project id="JustJava" values="android,android-gradle,java-gradle" collectionTime="1473160830217" />
-      <project id="Just Java" values="android,java-gradle,android-gradle" collectionTime="1472820115426" />
+      <project id="My Application" values="android,java-gradle,android-gradle" collectionTime="1472463103033" />
+      <project id="K P V Music Player" values="android-gradle,java-gradle,android" collectionTime="1473412300828" />
+      <project id="My Application1.2" values="android,android-gradle,java-gradle" collectionTime="1472459557961" />
+      <project id="P V K Music Player" values="android,java-gradle,android-gradle" collectionTime="1473341255488" />
+      <project id="Just Java" values="android-gradle,java-gradle,android" collectionTime="1472820115426" />
+      <project id="JustJava" values="java-gradle,android-gradle,android" collectionTime="1475581399959" />
       <project id="BirthdayEg1" values="android,android-gradle,java-gradle" collectionTime="1472458617874" />
+      <project id="AndroidApp" values="android-gradle,java-gradle,android" collectionTime="1473772173137" />
+      <project id="KPVMusicPlayer" values="android-gradle,android,java-gradle" collectionTime="1473321287071" />
+      <project id="Body Mass Index" values="android,java-gradle,android-gradle" collectionTime="1475658471298" />
+      <project id="My Quiz App" values="android,android-gradle,java-gradle" collectionTime="1476088653476" />
+      <project id="BirthDayCard" values="android,java-gradle,android-gradle" collectionTime="1472630548949" />
     </group>
     <group name="run-configuration-type">
-      <project id="BirthDayCard" values="AndroidRunConfigurationType" collectionTime="1472630548950" />
-      <project id="My Application1.2" values="AndroidRunConfigurationType" collectionTime="1472459557962" />
+      <project id="Court Counter" values="AndroidRunConfigurationType" collectionTime="1475231418304" />
+      <project id="Fragments Example" values="AndroidRunConfigurationType" collectionTime="1473847549966" />
       <project id="MyApplication" values="AndroidRunConfigurationType" collectionTime="1472641234472" />
       <project id="My Application" values="AndroidRunConfigurationType" collectionTime="1472463103033" />
-      <project id="JustJava" values="AndroidRunConfigurationType" collectionTime="1473160830218" />
+      <project id="K P V Music Player" values="AndroidRunConfigurationType" collectionTime="1473412300829" />
+      <project id="My Application1.2" values="AndroidRunConfigurationType" collectionTime="1472459557962" />
+      <project id="P V K Music Player" values="AndroidRunConfigurationType" collectionTime="1473341255489" />
       <project id="Just Java" values="AndroidRunConfigurationType" collectionTime="1472820115427" />
+      <project id="JustJava" values="AndroidRunConfigurationType" collectionTime="1475581399963" />
       <project id="BirthdayEg1" values="AndroidRunConfigurationType" collectionTime="1472458617874" />
+      <project id="AndroidApp" values="AndroidRunConfigurationType" collectionTime="1473772173140" />
+      <project id="Body Mass Index" values="AndroidRunConfigurationType" collectionTime="1475658471299" />
+      <project id="My Quiz App" values="AndroidRunConfigurationType" collectionTime="1476088653480" />
+      <project id="BirthDayCard" values="AndroidRunConfigurationType" collectionTime="1472630548950" />
+    </group>
+    <group name="language-level">
+      <project id="Court Counter" values="JDK_1_7,JDK_1_8" collectionTime="1475231418368" />
+      <project id="Fragments Example" values="JDK_1_7" collectionTime="1473847550053" />
+      <project id="MyApplication" values="JDK_1_7,JDK_1_8" collectionTime="1472641234513" />
+      <project id="My Application" values="JDK_1_8,JDK_1_7" collectionTime="1472463103088" />
+      <project id="K P V Music Player" values="JDK_1_8,JDK_1_7" collectionTime="1473412301030" />
+      <project id="My Application1.2" values="JDK_1_7" collectionTime="1472459558024" />
+      <project id="P V K Music Player" values="JDK_1_7,JDK_1_8" collectionTime="1473341255572" />
+      <project id="Just Java" values="JDK_1_7" collectionTime="1472820115588" />
+      <project id="JustJava" values="JDK_1_8,JDK_1_7" collectionTime="1475581400236" />
+      <project id="BirthdayEg1" values="JDK_1_7" collectionTime="1472458617920" />
+      <project id="AndroidApp" values="JDK_1_7" collectionTime="1473772173348" />
+      <project id="KPVMusicPlayer" values="JDK_1_7,JDK_1_6" collectionTime="1473321287098" />
+      <project id="Body Mass Index" values="JDK_1_7" collectionTime="1475658472535" />
+      <project id="My Quiz App" values="JDK_1_7" collectionTime="1476088653714" />
+      <project id="BirthDayCard" values="JDK_1_7,JDK_1_8" collectionTime="1472630549143" />
     </group>
     <group name="file-type">
-      <project id="BirthDayCard" values="Images,AIDL,Groovy,Properties,ARCHIVE,JAVA,UNKNOWN,PLAIN_TEXT,IDEA_MODULE,ProGuard File,XML" collectionTime="1472630549088" />
-      <project id="My Application1.2" values="AIDL,ProGuard File,JAVA,Images,XML,PLAIN_TEXT,Properties,Groovy,ARCHIVE,UNKNOWN,IDEA_MODULE" collectionTime="1472459558009" />
-      <project id="MyApplication" values="Groovy,PLAIN_TEXT,UNKNOWN,JAVA,IDEA_MODULE,XML,Images,ProGuard File,Properties,ARCHIVE,AIDL" collectionTime="1472641234502" />
-      <project id="My Application" values="Groovy,PLAIN_TEXT,JAVA,XML,ARCHIVE,UNKNOWN,Properties,ProGuard File,IDEA_MODULE,AIDL,Images" collectionTime="1472463103078" />
-      <project id="JustJava" values="UNKNOWN,Properties,XML,Groovy,PLAIN_TEXT,JAVA,ProGuard File,ARCHIVE,AIDL,IDEA_MODULE,Images" collectionTime="1473160830309" />
-      <project id="Just Java" values="PLAIN_TEXT,IDEA_MODULE,Images,Properties,XML,ProGuard File,JAVA,AIDL,UNKNOWN,Groovy,ARCHIVE" collectionTime="1472820115535" />
-      <project id="BirthdayEg1" values="XML,AIDL,IDEA_MODULE,PLAIN_TEXT,Groovy,UNKNOWN,ARCHIVE,Images,ProGuard File,JAVA,Properties" collectionTime="1472458617920" />
+      <project id="Court Counter" values="Properties,ARCHIVE,UNKNOWN,JAVA,AIDL,Groovy,IDEA_MODULE,PLAIN_TEXT,ProGuard File,Images,XML" collectionTime="1475231418364" />
+      <project id="Fragments Example" values="Groovy,IDEA_MODULE,Images,AIDL,ProGuard File,ARCHIVE,UNKNOWN,Properties,XML,JAVA,PLAIN_TEXT" collectionTime="1473847550019" />
+      <project id="MyApplication" values="PLAIN_TEXT,JAVA,XML,AIDL,IDEA_MODULE,Properties,ProGuard File,UNKNOWN,Groovy,Images,ARCHIVE" collectionTime="1472641234502" />
+      <project id="My Application" values="JAVA,IDEA_MODULE,PLAIN_TEXT,Properties,ProGuard File,UNKNOWN,ARCHIVE,XML,Groovy,Images,AIDL" collectionTime="1472463103078" />
+      <project id="K P V Music Player" values="Images,IDEA_MODULE,Groovy,Properties,JAVA,PLAIN_TEXT,ARCHIVE,AIDL,XML,UNKNOWN,ProGuard File" collectionTime="1473412300961" />
+      <project id="My Application1.2" values="JAVA,UNKNOWN,PLAIN_TEXT,Groovy,ARCHIVE,ProGuard File,IDEA_MODULE,AIDL,XML,Images,Properties" collectionTime="1472459558009" />
+      <project id="P V K Music Player" values="Properties,UNKNOWN,Groovy,IDEA_MODULE,PLAIN_TEXT,JAVA,ProGuard File,AIDL,ARCHIVE,XML,Images" collectionTime="1473341255562" />
+      <project id="Just Java" values="ProGuard File,Groovy,JAVA,PLAIN_TEXT,IDEA_MODULE,XML,AIDL,ARCHIVE,Properties,Images,UNKNOWN" collectionTime="1472820115535" />
+      <project id="JustJava" values="UNKNOWN,Properties,ARCHIVE,Images,AIDL,XML,ProGuard File,IDEA_MODULE,PLAIN_TEXT,Groovy,JAVA" collectionTime="1475581400100" />
+      <project id="BirthdayEg1" values="PLAIN_TEXT,IDEA_MODULE,Images,Groovy,XML,ARCHIVE,JAVA,UNKNOWN,AIDL,Properties,ProGuard File" collectionTime="1472458617920" />
+      <project id="AndroidApp" values="ARCHIVE,IDEA_MODULE,Images,Properties,JAVA,ProGuard File,PLAIN_TEXT,AIDL,Groovy,XML,UNKNOWN" collectionTime="1473772173276" />
+      <project id="KPVMusicPlayer" values="UNKNOWN,XML,Images,Properties,PLAIN_TEXT,Groovy,JAVA,ARCHIVE,AIDL,ProGuard File,IDEA_MODULE" collectionTime="1473321287097" />
+      <project id="Body Mass Index" values="XML,ProGuard File,Images,ARCHIVE,Properties,JAVA,Groovy,PLAIN_TEXT,UNKNOWN,IDEA_MODULE,AIDL" collectionTime="1475658471678" />
+      <project id="My Quiz App" values="Properties,IDEA_MODULE,Images,ARCHIVE,UNKNOWN,AIDL,PLAIN_TEXT,XML,ProGuard File,JAVA,Groovy" collectionTime="1476088653648" />
+      <project id="BirthDayCard" values="Properties,UNKNOWN,JAVA,XML,ARCHIVE,ProGuard File,PLAIN_TEXT,Images,Groovy,IDEA_MODULE,AIDL" collectionTime="1472630549088" />
     </group>
     <group name="module type">
-      <project id="BirthDayCard" values="JAVA_MODULE" collectionTime="1472630548950" />
-      <project id="My Application1.2" values="JAVA_MODULE" collectionTime="1472459557961" />
+      <project id="Court Counter" values="JAVA_MODULE" collectionTime="1475231418304" />
+      <project id="Fragments Example" values="JAVA_MODULE" collectionTime="1473847549966" />
       <project id="MyApplication" values="JAVA_MODULE" collectionTime="1472641234467" />
       <project id="My Application" values="JAVA_MODULE" collectionTime="1472463103033" />
-      <project id="JustJava" values="JAVA_MODULE" collectionTime="1473160830217" />
+      <project id="K P V Music Player" values="JAVA_MODULE" collectionTime="1473412300828" />
+      <project id="My Application1.2" values="JAVA_MODULE" collectionTime="1472459557961" />
+      <project id="P V K Music Player" values="JAVA_MODULE" collectionTime="1473341255489" />
       <project id="Just Java" values="JAVA_MODULE" collectionTime="1472820115426" />
+      <project id="JustJava" values="JAVA_MODULE" collectionTime="1475581399960" />
       <project id="BirthdayEg1" values="JAVA_MODULE" collectionTime="1472458617874" />
+      <project id="AndroidApp" values="JAVA_MODULE" collectionTime="1473772173138" />
+      <project id="KPVMusicPlayer" values="JAVA_MODULE" collectionTime="1473321287071" />
+      <project id="Body Mass Index" values="JAVA_MODULE" collectionTime="1475658471298" />
+      <project id="My Quiz App" values="JAVA_MODULE" collectionTime="1476088653477" />
+      <project id="BirthDayCard" values="JAVA_MODULE" collectionTime="1472630548950" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="execute.AndroidRunConfigurationType.Run" count="88" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="335" />
+      <entry feature="ide.settings.Android_SDK" count="2" />
       <entry feature="ide.settings.Auto_Import" count="1" />
-      <entry feature="ideaapp.started" count="20" />
-      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="2" />
+      <entry feature="ide.settings.Project_Structure" count="1" />
+      <entry feature="ideaapp.started" count="63" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="6" />
     </counts>
   </component>
 </application>
